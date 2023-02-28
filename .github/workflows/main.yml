@@ -13,15 +13,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
-      - name: Change Dir
-        run: |
-          cd docs
+          persist-credentials: false        
       - name: Setup Node    
         uses: actions/setup-node@v3
         with:
           node-version: 14
           cache: 'npm'
+        run: |
+          cd docs  
       - name: Install and Build 
         run: |
           node -v
