@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>单元测试 | SandLZ</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="favicon.png">
+    <meta name="description" content="This is blog create by SandLZ.">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.4981748a.css" as="style"><link rel="preload" href="/blog/assets/js/app.858f30c3.js" as="script"><link rel="preload" href="/blog/assets/js/2.fabd8946.js" as="script"><link rel="preload" href="/blog/assets/js/114.be5bf497.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.854ca811.js"><link rel="prefetch" href="/blog/assets/js/100.e3d2facf.js"><link rel="prefetch" href="/blog/assets/js/101.1979528f.js"><link rel="prefetch" href="/blog/assets/js/102.56b79a4e.js"><link rel="prefetch" href="/blog/assets/js/103.3cae9ff7.js"><link rel="prefetch" href="/blog/assets/js/104.7e941184.js"><link rel="prefetch" href="/blog/assets/js/105.63e347f4.js"><link rel="prefetch" href="/blog/assets/js/106.07212669.js"><link rel="prefetch" href="/blog/assets/js/107.be3f81ee.js"><link rel="prefetch" href="/blog/assets/js/108.c0d7e6e0.js"><link rel="prefetch" href="/blog/assets/js/109.5f333f2e.js"><link rel="prefetch" href="/blog/assets/js/11.a0526f5c.js"><link rel="prefetch" href="/blog/assets/js/110.aa242c95.js"><link rel="prefetch" href="/blog/assets/js/111.a5746856.js"><link rel="prefetch" href="/blog/assets/js/112.0336af2b.js"><link rel="prefetch" href="/blog/assets/js/113.83c5fb7b.js"><link rel="prefetch" href="/blog/assets/js/115.8747b7b6.js"><link rel="prefetch" href="/blog/assets/js/116.f7119bac.js"><link rel="prefetch" href="/blog/assets/js/117.31dcb39f.js"><link rel="prefetch" href="/blog/assets/js/118.d611da26.js"><link rel="prefetch" href="/blog/assets/js/119.671939c6.js"><link rel="prefetch" href="/blog/assets/js/12.3be4b94f.js"><link rel="prefetch" href="/blog/assets/js/120.c724fa7f.js"><link rel="prefetch" href="/blog/assets/js/121.56bf4253.js"><link rel="prefetch" href="/blog/assets/js/122.7af59c89.js"><link rel="prefetch" href="/blog/assets/js/123.ef730d3e.js"><link rel="prefetch" href="/blog/assets/js/124.9c3c44f2.js"><link rel="prefetch" href="/blog/assets/js/125.c6f83b30.js"><link rel="prefetch" href="/blog/assets/js/126.1e0b231e.js"><link rel="prefetch" href="/blog/assets/js/127.39b1403a.js"><link rel="prefetch" href="/blog/assets/js/128.3544a95d.js"><link rel="prefetch" href="/blog/assets/js/129.fa78c010.js"><link rel="prefetch" href="/blog/assets/js/13.484ea708.js"><link rel="prefetch" href="/blog/assets/js/130.9796af21.js"><link rel="prefetch" href="/blog/assets/js/131.e7ba620e.js"><link rel="prefetch" href="/blog/assets/js/132.04d91dbe.js"><link rel="prefetch" href="/blog/assets/js/133.865e4ed2.js"><link rel="prefetch" href="/blog/assets/js/134.23dac864.js"><link rel="prefetch" href="/blog/assets/js/135.7ee65e24.js"><link rel="prefetch" href="/blog/assets/js/136.a8dc64be.js"><link rel="prefetch" href="/blog/assets/js/137.9bf629d0.js"><link rel="prefetch" href="/blog/assets/js/138.126b838a.js"><link rel="prefetch" href="/blog/assets/js/139.c476ea08.js"><link rel="prefetch" href="/blog/assets/js/14.bba1754a.js"><link rel="prefetch" href="/blog/assets/js/140.6985353e.js"><link rel="prefetch" href="/blog/assets/js/141.636e2a69.js"><link rel="prefetch" href="/blog/assets/js/142.1fee04d4.js"><link rel="prefetch" href="/blog/assets/js/143.49e24a8c.js"><link rel="prefetch" href="/blog/assets/js/144.d1ca7661.js"><link rel="prefetch" href="/blog/assets/js/145.23387fd2.js"><link rel="prefetch" href="/blog/assets/js/146.a9861959.js"><link rel="prefetch" href="/blog/assets/js/147.69583c06.js"><link rel="prefetch" href="/blog/assets/js/148.63cae2c7.js"><link rel="prefetch" href="/blog/assets/js/149.6aa7d42c.js"><link rel="prefetch" href="/blog/assets/js/15.a8ce3c00.js"><link rel="prefetch" href="/blog/assets/js/150.d9eb5d51.js"><link rel="prefetch" href="/blog/assets/js/151.9887e00e.js"><link rel="prefetch" href="/blog/assets/js/152.79468bed.js"><link rel="prefetch" href="/blog/assets/js/153.0ad2bc24.js"><link rel="prefetch" href="/blog/assets/js/154.d451f93a.js"><link rel="prefetch" href="/blog/assets/js/155.a5330a54.js"><link rel="prefetch" href="/blog/assets/js/16.2c23d00d.js"><link rel="prefetch" href="/blog/assets/js/17.ec026924.js"><link rel="prefetch" href="/blog/assets/js/18.c3450c36.js"><link rel="prefetch" href="/blog/assets/js/19.ccf15d6d.js"><link rel="prefetch" href="/blog/assets/js/20.4130ac74.js"><link rel="prefetch" href="/blog/assets/js/21.04afe1b6.js"><link rel="prefetch" href="/blog/assets/js/22.dca680b1.js"><link rel="prefetch" href="/blog/assets/js/23.1816fc49.js"><link rel="prefetch" href="/blog/assets/js/24.ed497e3e.js"><link rel="prefetch" href="/blog/assets/js/25.d91313e5.js"><link rel="prefetch" href="/blog/assets/js/26.98423ce6.js"><link rel="prefetch" href="/blog/assets/js/27.23110dda.js"><link rel="prefetch" href="/blog/assets/js/28.e74c635b.js"><link rel="prefetch" href="/blog/assets/js/29.8bf7e527.js"><link rel="prefetch" href="/blog/assets/js/3.79414de3.js"><link rel="prefetch" href="/blog/assets/js/30.421fb0f9.js"><link rel="prefetch" href="/blog/assets/js/31.d51a18ad.js"><link rel="prefetch" href="/blog/assets/js/32.0f0867f0.js"><link rel="prefetch" href="/blog/assets/js/33.abb2ff2e.js"><link rel="prefetch" href="/blog/assets/js/34.ff43e951.js"><link rel="prefetch" href="/blog/assets/js/35.9a7c8f66.js"><link rel="prefetch" href="/blog/assets/js/36.3fc6c2c9.js"><link rel="prefetch" href="/blog/assets/js/37.0daea518.js"><link rel="prefetch" href="/blog/assets/js/38.e6d6df09.js"><link rel="prefetch" href="/blog/assets/js/39.a9909601.js"><link rel="prefetch" href="/blog/assets/js/4.6db00338.js"><link rel="prefetch" href="/blog/assets/js/40.fa540465.js"><link rel="prefetch" href="/blog/assets/js/41.90286ec8.js"><link rel="prefetch" href="/blog/assets/js/42.5a540f7e.js"><link rel="prefetch" href="/blog/assets/js/43.072d43cf.js"><link rel="prefetch" href="/blog/assets/js/44.98a8b176.js"><link rel="prefetch" href="/blog/assets/js/45.b42dd62a.js"><link rel="prefetch" href="/blog/assets/js/46.5d54dac1.js"><link rel="prefetch" href="/blog/assets/js/47.b03e5fd5.js"><link rel="prefetch" href="/blog/assets/js/48.3014c7f6.js"><link rel="prefetch" href="/blog/assets/js/49.c1c1e394.js"><link rel="prefetch" href="/blog/assets/js/5.f739154c.js"><link rel="prefetch" href="/blog/assets/js/50.7cdd5465.js"><link rel="prefetch" href="/blog/assets/js/51.635c6c59.js"><link rel="prefetch" href="/blog/assets/js/52.353d9715.js"><link rel="prefetch" href="/blog/assets/js/53.f1cc74ab.js"><link rel="prefetch" href="/blog/assets/js/54.99ed1a4a.js"><link rel="prefetch" href="/blog/assets/js/55.8fd2b50f.js"><link rel="prefetch" href="/blog/assets/js/56.f2033f6c.js"><link rel="prefetch" href="/blog/assets/js/57.c5667ea1.js"><link rel="prefetch" href="/blog/assets/js/58.6044d2d4.js"><link rel="prefetch" href="/blog/assets/js/59.33e013cf.js"><link rel="prefetch" href="/blog/assets/js/6.e2d84400.js"><link rel="prefetch" href="/blog/assets/js/60.fd2c7d2f.js"><link rel="prefetch" href="/blog/assets/js/61.faf31265.js"><link rel="prefetch" href="/blog/assets/js/62.46d343dd.js"><link rel="prefetch" href="/blog/assets/js/63.87580edf.js"><link rel="prefetch" href="/blog/assets/js/64.5c1e37b9.js"><link rel="prefetch" href="/blog/assets/js/65.39c3c35f.js"><link rel="prefetch" href="/blog/assets/js/66.373fd62a.js"><link rel="prefetch" href="/blog/assets/js/67.5139d00a.js"><link rel="prefetch" href="/blog/assets/js/68.36055ba7.js"><link rel="prefetch" href="/blog/assets/js/69.18f759df.js"><link rel="prefetch" href="/blog/assets/js/7.561c70ed.js"><link rel="prefetch" href="/blog/assets/js/70.f55177a5.js"><link rel="prefetch" href="/blog/assets/js/71.77c2508b.js"><link rel="prefetch" href="/blog/assets/js/72.80610e6c.js"><link rel="prefetch" href="/blog/assets/js/73.c904d168.js"><link rel="prefetch" href="/blog/assets/js/74.7d633ebc.js"><link rel="prefetch" href="/blog/assets/js/75.a667bce7.js"><link rel="prefetch" href="/blog/assets/js/76.b64be0e0.js"><link rel="prefetch" href="/blog/assets/js/77.ed09ef0f.js"><link rel="prefetch" href="/blog/assets/js/78.f49b913b.js"><link rel="prefetch" href="/blog/assets/js/79.fbfe2846.js"><link rel="prefetch" href="/blog/assets/js/8.d79fce92.js"><link rel="prefetch" href="/blog/assets/js/80.6450ec48.js"><link rel="prefetch" href="/blog/assets/js/81.35709198.js"><link rel="prefetch" href="/blog/assets/js/82.dbd4e502.js"><link rel="prefetch" href="/blog/assets/js/83.ad177c7c.js"><link rel="prefetch" href="/blog/assets/js/84.83b478b5.js"><link rel="prefetch" href="/blog/assets/js/85.60c28d39.js"><link rel="prefetch" href="/blog/assets/js/86.ead6eeea.js"><link rel="prefetch" href="/blog/assets/js/87.155778df.js"><link rel="prefetch" href="/blog/assets/js/88.f9978c7a.js"><link rel="prefetch" href="/blog/assets/js/89.cc4b87ec.js"><link rel="prefetch" href="/blog/assets/js/9.4fcc7bbd.js"><link rel="prefetch" href="/blog/assets/js/90.38d26033.js"><link rel="prefetch" href="/blog/assets/js/91.5da9b879.js"><link rel="prefetch" href="/blog/assets/js/92.f18d628e.js"><link rel="prefetch" href="/blog/assets/js/93.9924e149.js"><link rel="prefetch" href="/blog/assets/js/94.f2d3d5b8.js"><link rel="prefetch" href="/blog/assets/js/95.67d8c2cb.js"><link rel="prefetch" href="/blog/assets/js/96.81286b04.js"><link rel="prefetch" href="/blog/assets/js/97.cceed014.js"><link rel="prefetch" href="/blog/assets/js/98.42864c8a.js"><link rel="prefetch" href="/blog/assets/js/99.c0a27f07.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.4981748a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">SandLZ</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机" class="dropdown-title"><span class="title">计算机</span> <span class="arrow down"></span></button> <button type="button" aria-label="计算机" class="mobile-dropdown-title"><span class="title">计算机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/computer/compile/" class="nav-link">
+  编译原理
+</a></li><li class="dropdown-subitem"><a href="/blog/computer/communication-protocol/" class="nav-link">
+  通信协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/computer/data-structure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/blog/computer/algorithm/" class="nav-link">
+  算法
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="基础" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          三剑客
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/base/html/semantization.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/blog/base/css/base.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/blog/base/javascript/data-type.html" class="nav-link">
+  JavaScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          浏览器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/base/browser/" class="nav-link">
+  Browser
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/advance/design-patterns/" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/architecture-mode/" class="nav-link">
+  架构模式
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/programe-paradigms/" class="nav-link">
+  编程范型
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/programe-design/" class="nav-link">
+  程序设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">工程化</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">工程化</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/engineering/ci-cd/" class="nav-link">
+  CI/CD
+</a></li><li class="dropdown-item"><!----> <a href="/blog/engineering/code-standard/code-format.html" class="nav-link">
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/blog/engineering/code-quality/unit-test.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  代码质量
+</a></li><li class="dropdown-item"><h4>
+          版本管理
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/version-manage/git.html" class="nav-link">
+  Git
+</a></li></ul></li><li class="dropdown-item"><h4>
+          转换工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/trans-tool/babel.html" class="nav-link">
+  Babel
+</a></li></ul></li><li class="dropdown-item"><h4>
+          构建工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/build-tool/webpack.html" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/blog/engineering/build-tool/rollup.html" class="nav-link">
+  Rollup
+</a></li></ul></li><li class="dropdown-item"><h4>
+          语言增强
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/lan-enhancement/scss/scss.html" class="nav-link">
+  Scss
+</a></li><li class="dropdown-subitem"><a href="/blog/engineering/lan-enhancement/typescript.html" class="nav-link">
+  TypeScript
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          FE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/framework/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/blog/framework/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/blog/framework/angular/" class="nav-link">
+  Angular
+</a></li></ul></li><li class="dropdown-item"><h4>
+          BE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/backend/nodejs/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-subitem"><a href="/blog/backend/express/" class="nav-link">
+  Express
+</a></li><li class="dropdown-subitem"><a href="/blog/backend/koa/" class="nav-link">
+  Koa
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="客户端" class="dropdown-title"><span class="title">客户端</span> <span class="arrow down"></span></button> <button type="button" aria-label="客户端" class="mobile-dropdown-title"><span class="title">客户端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/client/jsbridge/" class="nav-link">
+  JSBridge
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/react-native/" class="nav-link">
+  React Native
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端发展" class="dropdown-title"><span class="title">前端发展</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端发展" class="mobile-dropdown-title"><span class="title">前端发展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/frontend-development/ssr/" class="nav-link">
+  SSR
+</a></li><li class="dropdown-item"><!----> <a href="/blog/frontend-development/micro-frontend/" class="nav-link">
+  微前端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/other/team/private-npm.html" class="nav-link">
+  团队协作
+</a></li><li class="dropdown-item"><!----> <a href="/blog/other/project-manage/" class="nav-link">
+  项目管理
+</a></li><li class="dropdown-item"><!----> <a href="/blog/other/design/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/SandLZ" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机" class="dropdown-title"><span class="title">计算机</span> <span class="arrow down"></span></button> <button type="button" aria-label="计算机" class="mobile-dropdown-title"><span class="title">计算机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/computer/compile/" class="nav-link">
+  编译原理
+</a></li><li class="dropdown-subitem"><a href="/blog/computer/communication-protocol/" class="nav-link">
+  通信协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/computer/data-structure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/blog/computer/algorithm/" class="nav-link">
+  算法
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="基础" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          三剑客
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/base/html/semantization.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/blog/base/css/base.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/blog/base/javascript/data-type.html" class="nav-link">
+  JavaScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          浏览器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/base/browser/" class="nav-link">
+  Browser
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/advance/design-patterns/" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/architecture-mode/" class="nav-link">
+  架构模式
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/programe-paradigms/" class="nav-link">
+  编程范型
+</a></li><li class="dropdown-item"><!----> <a href="/blog/advance/programe-design/" class="nav-link">
+  程序设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">工程化</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">工程化</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/engineering/ci-cd/" class="nav-link">
+  CI/CD
+</a></li><li class="dropdown-item"><!----> <a href="/blog/engineering/code-standard/code-format.html" class="nav-link">
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/blog/engineering/code-quality/unit-test.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  代码质量
+</a></li><li class="dropdown-item"><h4>
+          版本管理
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/version-manage/git.html" class="nav-link">
+  Git
+</a></li></ul></li><li class="dropdown-item"><h4>
+          转换工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/trans-tool/babel.html" class="nav-link">
+  Babel
+</a></li></ul></li><li class="dropdown-item"><h4>
+          构建工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/build-tool/webpack.html" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/blog/engineering/build-tool/rollup.html" class="nav-link">
+  Rollup
+</a></li></ul></li><li class="dropdown-item"><h4>
+          语言增强
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/engineering/lan-enhancement/scss/scss.html" class="nav-link">
+  Scss
+</a></li><li class="dropdown-subitem"><a href="/blog/engineering/lan-enhancement/typescript.html" class="nav-link">
+  TypeScript
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          FE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/framework/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/blog/framework/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/blog/framework/angular/" class="nav-link">
+  Angular
+</a></li></ul></li><li class="dropdown-item"><h4>
+          BE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/blog/backend/nodejs/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-subitem"><a href="/blog/backend/express/" class="nav-link">
+  Express
+</a></li><li class="dropdown-subitem"><a href="/blog/backend/koa/" class="nav-link">
+  Koa
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="客户端" class="dropdown-title"><span class="title">客户端</span> <span class="arrow down"></span></button> <button type="button" aria-label="客户端" class="mobile-dropdown-title"><span class="title">客户端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/client/jsbridge/" class="nav-link">
+  JSBridge
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/react-native/" class="nav-link">
+  React Native
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/blog/client/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端发展" class="dropdown-title"><span class="title">前端发展</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端发展" class="mobile-dropdown-title"><span class="title">前端发展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/frontend-development/ssr/" class="nav-link">
+  SSR
+</a></li><li class="dropdown-item"><!----> <a href="/blog/frontend-development/micro-frontend/" class="nav-link">
+  微前端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/other/team/private-npm.html" class="nav-link">
+  团队协作
+</a></li><li class="dropdown-item"><!----> <a href="/blog/other/project-manage/" class="nav-link">
+  项目管理
+</a></li><li class="dropdown-item"><!----> <a href="/blog/other/design/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/SandLZ" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>代码质量</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/engineering/code-quality/unit-test.html" aria-current="page" class="active sidebar-link">单元测试</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#概念" class="sidebar-link">概念</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#目的" class="sidebar-link">目的</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#金字塔" class="sidebar-link">金字塔</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#测试框架" class="sidebar-link">测试框架</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#三大框架" class="sidebar-link">三大框架</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#karma" class="sidebar-link">Karma</a></li><li class="sidebar-sub-header"><a href="/blog/engineering/code-quality/unit-test.html#jest" class="sidebar-link">Jest</a></li></ul></li><li><a href="/blog/engineering/code-quality/e2e.html" class="sidebar-link">E2E</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="单元测试"><a href="#单元测试" class="header-anchor">#</a> 单元测试</h1> <blockquote><p>很长一段时间以来，单元测试并不是前端工程师应具备的一项技能，但随着前端工程化的发展，项目日渐复杂化及代码追求高复用性等，促使单元测试愈发重要，决定整个项目质量的关键因素之一</p></blockquote> <h2 id="概念"><a href="#概念" class="header-anchor">#</a> 概念</h2> <h3 id="单元测试-2"><a href="#单元测试-2" class="header-anchor">#</a> 单元测试</h3> <p>单一的代码单元</p> <ul><li>类</li> <li>对象</li> <li>函数</li> <li>...</li></ul> <p>FIRST原则</p> <ol><li><code>快速(Fast)</code>：单元测试执行一定要快，这样研发同学可以在项目周期的任意时间点，可以方便地执行单元测试，即便是有几千个单元测试也不影响。这些单元测试最好在几秒内运行完并返回期望的结果。</li> <li><code>(Isolated)</code>：每一个测试用例运行时、准备环境变量时或测试前环境搭建过程中，都是隔离的。过程中，不能有相互依赖，这样最终的测试结果可以不受其它因素的影响。</li> <li><code>(Repeatable) 执行</code>：单元测试可以在不做任何修改情况下，在任何环境下执行。如果单元测试不依赖网络或数据库，单元测试失败原因的排查中，就不用考虑这方面的原因，毕竟单元测试依赖的只是被测试类或方法中的代码。这个原则，可以方便地让自己的单元测试逻辑保持良好的价值。</li> <li><code>试中自校验 (Self-validating)</code>：写了单元测试后，咱们不能再依赖肉眼观察，看被测代码的结果是否正确。测试代码自身会明白无误地告诉咱哪条测试用例失败了。</li> <li><code>(Timely)</code>：按 TDD 的理念，应该在相应的业务代码之前定单元测试。这一点上，大家可以自己掌握是否采用 TDD 的开发理念。不过，这个的理念是，即时地写单元代码，即便是很小的代码也是这样。</li></ol> <h3 id="集成测试"><a href="#集成测试" class="header-anchor">#</a> 集成测试</h3> <p>一组需要运行多个测试进行验证的过程，通常是为了验证各个程序单元一起工作时的结果是否符合预期</p> <h3 id="验收测试-功能测试"><a href="#验收测试-功能测试" class="header-anchor">#</a> 验收测试/功能测试</h3> <p>从<code>产品/用户</code>角度对整个系统进行的测试，判断系统是否满足用户的验收条件。例如使用Selenium对Web应用进行自动化测试。</p> <h3 id="tdd"><a href="#tdd" class="header-anchor">#</a> TDD</h3> <p>Test Driven Development：测试驱动开发</p> <p>一种开发方式，以测试来驱动整个项目，即先根据接口完成测试编写，然后在完成功能时要不断通过测试，最终目的是通过所有测试。</p> <p><img src="https://joshldavis.com/img/tdd-vs-bdd/tdd-flowchart.png" alt="image"></p> <p>特点：先写测试用例，再写业务代码</p> <h3 id="bdd"><a href="#bdd" class="header-anchor">#</a> BDD</h3> <p>Behavior Driven Development 行为驱动开发</p> <p>领域特定语言描述用户行为，定义业务需求，让开发者集中精力于代码的写法而不是技术细节上。着重在整个开发层面所有参与者对行为和业务的理解</p> <p>特点：关注行为，不关注具体实现细节</p> <h2 id="目的"><a href="#目的" class="header-anchor">#</a> 目的</h2> <ul><li>保证代码的质量，验证功能完整性</li></ul> <h2 id="金字塔"><a href="#金字塔" class="header-anchor">#</a> 金字塔</h2> <p><img src="https://gitee.com/zliu/images/raw/master/uPic/55113335-24fcff00-50df-11e9-87e8-cdd5e0e6ad3f.png" alt=""></p> <h2 id="测试框架"><a href="#测试框架" class="header-anchor">#</a> 测试框架</h2> <table><thead><tr><th>名称</th> <th>功能</th> <th>特点</th> <th>说明</th> <th>Star</th></tr></thead> <tbody><tr><td><a href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">Jest<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>断言<br>仿真<br>快照<br>报告<br>Mock</td> <td>开箱即用<br>基于<a href="https://jasmine.github.io/" target="_blank" rel="noopener noreferrer">Jasmine<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>发展而来<br>JSDOM虚拟环境<br></td> <td>Unit</td> <td>33.8K</td></tr> <tr><td><a href="https://mochajs.org/" target="_blank" rel="noopener noreferrer">Mocha<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>需集成断言等</td> <td>需集成其他库,如chai</td> <td>~</td> <td>20.1K</td></tr> <tr><td><a href="https://karma-runner.github.io/5.2/intro/installation.html" target="_blank" rel="noopener noreferrer">Karma<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>提供浏览器测试环境</td> <td>本地浏览器环境</td> <td>~</td> <td>11.4K</td></tr> <tr><td><a href="https://www.cypress.io/" target="_blank" rel="noopener noreferrer">Cypress<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>断言<br>仿真<br>快照<br>报告<br>Mock<br>截图</td> <td>整体解决方案</td> <td>All</td> <td>26.4K</td></tr> <tr><td><a href="https://pptr.dev/" target="_blank" rel="noopener noreferrer">Puppeteer<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>提供Chrome测试环境</td> <td></td> <td>E2E</td> <td>68.1K</td></tr> <tr><td><a href="https://jasmine.github.io" target="_blank" rel="noopener noreferrer">Jasmine<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></td> <td>断言<br>报告</td> <td>No DOM<br>No Deps</td> <td>Unit</td> <td>15K</td></tr></tbody></table> <p><img src="https://gitee.com/zliu/images/raw/master/uPic/Ic8Kq9.png" alt="stateofjs 2020"></p> <h2 id="三大框架"><a href="#三大框架" class="header-anchor">#</a> 三大框架</h2> <h3 id="angular"><a href="#angular" class="header-anchor">#</a> Angular</h3> <p><strong>Karma</strong> + Jasmine + <strong>Protractor</strong></p> <blockquote><p>Karma、Protractor is maintained by Angular Team.</p></blockquote> <p>Karma + Jasmine ：Unit test、Intergration test</p> <p>Protractor: E2E test</p> <h3 id="react"><a href="#react" class="header-anchor">#</a> React</h3> <p>Jest or Test Library for react</p> <h3 id="vue"><a href="#vue" class="header-anchor">#</a> Vue</h3> <p>@vue/test-utils + Jest</p> <p>可选方案：</p> <ul><li>@vue/test-utils + Mocha</li> <li>@vue/test-utils + Cypress</li></ul> <h2 id="karma"><a href="#karma" class="header-anchor">#</a> Karma</h2> <p><img src="https://gitee.com/zliu/images/raw/master/uPic/E4wM1G.png" alt=""></p> <h2 id="jest"><a href="#jest" class="header-anchor">#</a> Jest</h2> <p>以Vue2为例</p> <h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> --dev jest vue-jest @vue/test-utils babel-jest
+</code></pre></div><table><thead><tr><th>名称</th> <th>说明</th></tr></thead> <tbody><tr><td>jest</td> <td>---</td></tr> <tr><td>vue-jest</td> <td>预处理器：处理.vue文件</td></tr> <tr><td>@vue/test-utils</td> <td>vue测试工具</td></tr> <tr><td>babel-jest</td> <td>ES6</td></tr></tbody></table> <h3 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h3> <h4 id="babel-config-js"><a href="#babel-config-js" class="header-anchor">#</a> babel.config.js</h4> <div class="language-javascript extra-class"><pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  presets<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">'@vue/cli-plugin-babel/preset'</span><span class="token punctuation">,</span>
+    <span class="token punctuation">[</span><span class="token string">'env'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> modules<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">]</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  env<span class="token operator">:</span> <span class="token punctuation">{</span>
+    test<span class="token operator">:</span> <span class="token punctuation">{</span>
+      presets<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">'env'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> targets<span class="token operator">:</span> <span class="token punctuation">{</span> node<span class="token operator">:</span> <span class="token string">'current'</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="jest-config-js"><a href="#jest-config-js" class="header-anchor">#</a> jest.config.js</h4> <div class="language-javascript extra-class"><pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  moduleFileExtensions<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;js&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;json&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;vue&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  transform<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// `vue-jest` 处理 `*.vue` 文件</span>
+    <span class="token string">&quot;.*\\.(vue)$&quot;</span><span class="token operator">:</span> <span class="token string">&quot;vue-jest&quot;</span><span class="token punctuation">,</span>
+    <span class="token comment">// `babel-jest` 处理 js</span>
+    <span class="token string">&quot;^.+\\.js$&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  moduleNameMapper<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// alias</span>
+    <span class="token string">&quot;^@/(.*)$&quot;</span><span class="token operator">:</span> <span class="token string">&quot;&lt;rootDir&gt;/src/$1&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 覆盖率</span>
+  collectCoverage<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  collectCoverageFrom<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;**/*.{js,vue}&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;!**/node_modules/**&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  coverageReporters<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;html&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;text-summary&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  coverageDirectory<span class="token operator">:</span> <span class="token string">'&lt;rootDir&gt;/coverage'</span><span class="token punctuation">,</span>
+  coveragePathIgnorePatterns<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'&lt;rootDir&gt;/node_modules/'</span><span class="token punctuation">,</span> <span class="token string">'&lt;rootDir&gt;/coverage/'</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>eslint</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token property">&quot;env&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+	<span class="token property">&quot;jest&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;node&quot;</span><span class="token operator">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h3> <h4 id="基本概念"><a href="#基本概念" class="header-anchor">#</a> 基本概念</h4> <h5 id="断言"><a href="#断言" class="header-anchor">#</a> 断言</h5> <blockquote><p>判断一个函数或对象的一个方法所产生的结果是否符合你期望的那个结果</p></blockquote> <h4 id="describe"><a href="#describe" class="header-anchor">#</a> describe</h4> <p>describe 是 Jest 的全局函数，作为一个 Test Suite 的开始，它通常有 2 个参数：字符串和方法。字符串作为特定 Suite 的名字和标题。方法是包含实现 Suite 的代码。</p> <p>注：describe会形成一个作用域</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&quot;This is an exmaple suite&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> a <span class="token operator">=</span> <span class="token number">1</span>
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;contains spec with an expectation&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">.</span>not<span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">&quot;contains spec with an expectation2&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">.</span>not<span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h4 id="expect"><a href="#expect" class="header-anchor">#</a> expect</h4> <p>在编写测试时，通常需要检查值是否满足某些条件。expect允许您访问许多“匹配器”，这些匹配器允许您验证不同的东西。</p> <div><img src="https://gitee.com/zliu/images/raw/master/uPic/yApj82.png" style="zoom:30%;float:left;"> <img src="https://gitee.com/zliu/images/raw/master/uPic/3Uy7LG.png" style="zoom:30%;float:right;"></div> <h4 id="setup-and-teardown"><a href="#setup-and-teardown" class="header-anchor">#</a> setup and teardown</h4> <p>为了使某个测试用例干净的重复 setup 和 teardown 代码， Jasmine 提供了全局的 beforeEach 和 afterEach 方法。正像其名字一样，beforeEach 方法在 describe 中的每个 Spec 执行之前运行，afterEach 在每个 Spec 调用后运行。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">&quot;An example of setup and teardown)&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> gVar<span class="token punctuation">;</span>
+ 
+  <span class="token function">beforeEach</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    gVar <span class="token operator">=</span> <span class="token number">3.6</span><span class="token punctuation">;</span>
+    gVar <span class="token operator">+=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+  <span class="token function">afterEach</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    gVar <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;after setup, gVar has new value.&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>gVar<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token number">4.6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+  <span class="token function">it</span><span class="token punctuation">(</span><span class="token string">&quot;A spec contains 2 expectations.&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    gVar <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>gVar<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toEqual</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h4 id="mock"><a href="#mock" class="header-anchor">#</a> mock</h4> <h4 id="测试场景"><a href="#测试场景" class="header-anchor">#</a> 测试场景</h4> <h5 id="异步"><a href="#异步" class="header-anchor">#</a> 异步</h5> <h6 id="promise"><a href="#promise" class="header-anchor">#</a> Promise</h6> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'the data is peanut butter'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token function">fetchData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'peanut butter'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h6 id="async-await"><a href="#async-await" class="header-anchor">#</a> Async/Await</h6> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'the data is peanut butter'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> data <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetchData</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token function">expect</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'peanut butter'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h6 id="settimeout"><a href="#settimeout" class="header-anchor">#</a> setTimeout</h6> <h5 id="组件"><a href="#组件" class="header-anchor">#</a> 组件</h5> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> mount <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@vue/test-utils'</span>
+<span class="token keyword">import</span> HelloWorld <span class="token keyword">from</span> <span class="token string">'../src/components/HelloWorld.vue'</span>
+
+<span class="token function">describe</span><span class="token punctuation">(</span><span class="token string">'HelloWorld'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'has class name'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> wrapper <span class="token operator">=</span> <span class="token function">mount</span><span class="token punctuation">(</span>HelloWorld<span class="token punctuation">)</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>wrapper<span class="token punctuation">.</span><span class="token function">classes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toContain</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token function">test</span><span class="token punctuation">(</span><span class="token string">'trigger a click'</span><span class="token punctuation">,</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> wrapper <span class="token operator">=</span> <span class="token function">mount</span><span class="token punctuation">(</span>HelloWorld<span class="token punctuation">)</span>
+    <span class="token keyword">const</span> message <span class="token operator">=</span> wrapper<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'#message'</span><span class="token punctuation">)</span>
+    <span class="token keyword">await</span> wrapper<span class="token punctuation">.</span><span class="token function">find</span><span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">trigger</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">)</span>
+    <span class="token function">expect</span><span class="token punctuation">(</span>message<span class="token punctuation">.</span><span class="token function">text</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toBe</span><span class="token punctuation">(</span><span class="token string">'testFunction has been clicked!'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2/28/2023, 1:44:16 PM</span></div></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/blog/engineering/code-quality/e2e.html">
+        E2E
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/blog/assets/js/app.858f30c3.js" defer></script><script src="/blog/assets/js/2.fabd8946.js" defer></script><script src="/blog/assets/js/114.be5bf497.js" defer></script>
+  </body>
+</html>
