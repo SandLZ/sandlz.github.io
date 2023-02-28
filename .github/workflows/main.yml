@@ -18,7 +18,12 @@ jobs:
       - name: Install and Build 
         run: |
           cd docs
-          npm install -g npm
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
+          source ~/.bashrc
+          nvm install v14.18.1
+          nvm use v14.18.1
+          node -v
+          npm -v
           npm i
           npm run build
           cd ..
