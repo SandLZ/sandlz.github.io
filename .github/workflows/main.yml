@@ -18,8 +18,9 @@ jobs:
       - name: Install and Build 
         run: |
           cd docs
-          yarn
-          yarn build
+          npm install -g npm
+          npm i
+          npm run build
           cd ..
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@releases/v3
