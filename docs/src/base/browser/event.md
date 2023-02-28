@@ -5,7 +5,7 @@
 JS 与 HTML 的交互是用事件实现的。事件流描述了页面接收事件的顺序。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/o2kxpY.png" >
+  <img src="https://github.com/sandlz/images/raw/master/uPic/o2kxpY.png" >
 </div>
 
 `DOM2 Events` 规范规定事件流分为 3 个阶段: 事件捕获、到达目标 和 事件冒泡。

@@ -22,11 +22,11 @@ CSS3 规范中的要求使用双冒号 (`::`) 表示伪元素，以此来区分�
 ## 伪类与伪元素的具体用法
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/wMWn2R.jpg" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/wMWn2R.jpg" />
 </div>
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/Dgw6re.jpg" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/Dgw6re.jpg" />
 </div>
 
 转载于[伪类与伪元素](http://www.alloyteam.com/2016/05/summary-of-pseudo-classes-and-pseudo-elements/#prettyPhoto)

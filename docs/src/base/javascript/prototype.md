@@ -126,7 +126,7 @@ console.log(c1.play === c2.play)
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/0k4DQT.png" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/0k4DQT.png" style="width: 80%">
 </div>
 
 注：
@@ -178,7 +178,7 @@ console.log(c2)
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ZFukEn.png" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ZFukEn.png" style="width: 80%">
 </div>
 
 

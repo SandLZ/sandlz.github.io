@@ -45,7 +45,7 @@ let p = new Person("ZhangSan", 20);
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/lsV17E.png" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/lsV17E.png" style="width: 80%">
 </div>
 
 在 Person 上新增方法

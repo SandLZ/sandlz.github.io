@@ -228,7 +228,7 @@ selector:pseudo-class {
 ```
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/UcDDE5.png">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/UcDDE5.png">
 </div>
 
 [标准伪类索引](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes#%E6%A0%87%E5%87%86%E4%BC%AA%E7%B1%BB%E7%B4%A2%E5%BC%95)
@@ -264,7 +264,7 @@ selector::pseudo-element {
 :::
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/p6GB95.png">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/p6GB95.png">
 </div>
 
 [标准伪元素索引](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements#%E6%A0%87%E5%87%86%E4%BC%AA%E5%85%83%E7%B4%A0%E7%B4%A2%E5%BC%95)
@@ -315,7 +315,7 @@ div > span {
 ```
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/GuE5jk.png">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/GuE5jk.png">
 </div>
 
 <h2 id="adjacent_sibling_sel"> 相邻兄弟选择器 </h2>
@@ -363,7 +363,7 @@ p ~ span {
 ```
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/JsGvxj.png">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/JsGvxj.png">
 </div>
 
 [查看 Scss](../../engineering/lan-enhancement/scss/scss.html)

@@ -12,7 +12,7 @@
 
 ## 示意图
 
-![](https://gitee.com/sandlz/images/raw/master/uPic/vuex.png)
+![](https://github.com/sandlz/images/raw/master/uPic/vuex.png)
 
 ## 特点
 

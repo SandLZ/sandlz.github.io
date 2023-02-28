@@ -5,8 +5,8 @@
 原始类型数据存放在`栈`中，引用类型数据存放在`堆`中。
 
 <div style="display: flex; width: 100%; ">
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga1.png" style="width: 50%" />
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga2.png" style="width: 50%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga1.png" style="width: 50%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga2.png" style="width: 50%" />
 </div>
 
 ```js
@@ -103,8 +103,8 @@ dog.foods = {};
 多次标记-清除后，会产生大量不连续的内存碎片，需要进行内存整理。
 
 <div style="display: flex; width: 100%; ">
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_01.webp" style="width: 50%" />
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_02.webp" style="width: 50%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_01.webp" style="width: 50%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_02.webp" style="width: 50%" />
 </div>
 
 #### 副垃圾回收器
@@ -113,7 +113,7 @@ dog.foods = {};
 
 新生代被分为两个区域：一般是对象区域，一半是空闲区域。
 
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_03.webp" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_03.webp" style="width: 80%" />
 
 新加入的对象都被放入对象区域，等对象区域快满的时候，会执行一次垃圾清理。
 
@@ -121,13 +121,13 @@ dog.foods = {};
 
 标记完成后，存活的对象被复制到空闲区域，并且将他们有序的排列一遍；
 
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_04.png" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_04.png" style="width: 80%" />
 
 这就回到我们前面留下的问题 -- 副垃圾回收器没有碎片整理。因为空闲区域里此时是有序的，没有碎片，也就不需要整理了；
 
 复制完成后，对象区域会和空闲区域进行对调。将空闲区域中存活的对象放入对象区域里。这样，就完成了垃圾回收。
 
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_05.webp" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_05.webp" style="width: 80%" />
 
 这样，就完成了垃圾回收。
 
@@ -137,7 +137,7 @@ dog.foods = {};
 
 一句话总结分代回收就是：将堆分为新生代与老生代，多回收新生代，少回收老生代。这样就减少了每次需遍历的对象，从而减少每次垃圾回收的耗时。
 
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_06.webp" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_06.webp" style="width: 80%" />
 
 ##### 增量收集
 
@@ -145,7 +145,7 @@ dog.foods = {};
 
 这样就解决了长时间停顿的问题。
 
- <img src="https://gitee.com/sandlz/images/raw/master/uPic/ga_img_07.webp" style="width: 80%" />
+ <img src="https://github.com/sandlz/images/raw/master/uPic/ga_img_07.webp" style="width: 80%" />
 
 ##### 闲时收集
 

@@ -109,5 +109,5 @@ const thunkMiddleware =
 再次看下React中redux工作流程：
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/react_redux.svg" alt="react-redux" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/react_redux.svg" alt="react-redux" />
 </div>

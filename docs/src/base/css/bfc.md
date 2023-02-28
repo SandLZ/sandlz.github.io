@@ -47,13 +47,13 @@
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/YPlqYA.png" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/YPlqYA.png" style="width: 80%" />
 </div>
 
 这时候其实第二个元素有部分被浮动元素所覆盖，(但是文本信息不会被浮动元素所覆盖) 如果想避免元素被覆盖，可触第二个元素的 BFC 特性，在第二个元素中加入 `display: flex`，就会变成：
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/je6klc.png" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/je6klc.png" style="width: 80%" />
 </div>
 
 2. 包含浮动元素
@@ -69,7 +69,7 @@
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/7sqxwA.png" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/7sqxwA.png" style="width: 80%" />
 </div>
 
 由于容器内元素浮动，脱离了文档流，所以容器只剩下 2px 的边距高度(高度坍塌)。如果使触发容器的 BFC，那么容器将会包裹着浮动元素。
@@ -91,7 +91,7 @@
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/0qE5I2.png" style="width: 80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/0qE5I2.png" style="width: 80%" />
 </div>
 
 3. 阻止`margin`重叠

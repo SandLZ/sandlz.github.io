@@ -15,7 +15,7 @@
 举一个字符数组的例子，如图所示：
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/arr_001.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/arr_001.png" />
 </div>
 需要两点注意的是
 
@@ -26,7 +26,7 @@
 例如删除下标为 3 的元素，需要对下标为 3 的元素后面的所有元素都要做移动操作，如图所示：
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/arr_002.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/arr_002.png" />
 </div>
 
 ## 1. 找出数组中出现次数最多的元素，并给出其出现过的位置

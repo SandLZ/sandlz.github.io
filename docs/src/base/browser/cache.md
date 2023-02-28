@@ -13,7 +13,7 @@
 - 协商缓存
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/cache.jpg" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/cache.jpg" style="width: 80%">
 </div>
 
 ### 强缓存

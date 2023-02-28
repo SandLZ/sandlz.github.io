@@ -17,7 +17,7 @@
 
 下图展示 `eslint-plugin-react` 支持的规则集合
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/k9gKeV.png" alt="eslint-plugin-react 示例">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/k9gKeV.png" alt="eslint-plugin-react 示例">
 </div>
 
 ## ESLint

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://gitee.com/sandlz/images/raw/master/uPic/sand.jpeg
+heroImage: https://github.com/sandlz/images/raw/master/uPic/sand.jpeg
 tagline: 
 actionText: Quick Start →
 actionLink: /base/javascript

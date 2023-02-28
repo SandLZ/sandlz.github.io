@@ -10,7 +10,7 @@
 2. 实现一个指令解析器`Compile`，对每个元素节点的指令进行扫描和解析，根据指令模板替换数据，以及绑定相应的更新函数
 3. 实现一个`Watcher`，作为连接`Observer`和`Compile`的桥梁，能够订阅并收到每个属性变动的通知，执行指令绑定的相应回调函数，从而更新视图
 
-![流程](https://gitee.com/sandlz/images/raw/master/uPic/2.png)
+![流程](https://github.com/sandlz/images/raw/master/uPic/2.png)
 
 ### Observer
 
@@ -114,7 +114,7 @@ Watcher.prototype = {
 
 `Compile`主要做的事情是解析模板指令，将模板中的变量替换成数据，然后初始化渲染页面视图，并将每个指令对应的节点绑定更新函数，添加监听数据的订阅者，一旦数据有变动，收到通知，更新视图
 
-![](https://gitee.com/sandlz/images/raw/master/uPic/3.png)
+![](https://github.com/sandlz/images/raw/master/uPic/3.png)
 
 因为遍历解析的过程有多次操作`dom`节点，为提高性能和效率，会先将`vue`实例根节点的`el`转换成文档碎片`fragment`进行解析编译操作，解析完成，再将`fragment`添加回原来的真实 dom 节点中
 

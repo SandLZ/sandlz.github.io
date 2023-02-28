@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Promise | SandLZ</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="favicon.png">
+    <meta name="description" content="This is blog create by SandLZ.">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.64cd44ad.css" as="style"><link rel="preload" href="/assets/js/app.1d921817.js" as="script"><link rel="preload" href="/assets/js/2.77cf891e.js" as="script"><link rel="preload" href="/assets/js/71.95906190.js" as="script"><link rel="prefetch" href="/assets/js/10.9a7d3562.js"><link rel="prefetch" href="/assets/js/100.634a22b9.js"><link rel="prefetch" href="/assets/js/101.5c6a3ddb.js"><link rel="prefetch" href="/assets/js/102.19748815.js"><link rel="prefetch" href="/assets/js/103.7a4ca7b0.js"><link rel="prefetch" href="/assets/js/104.6c266442.js"><link rel="prefetch" href="/assets/js/105.43e1ab07.js"><link rel="prefetch" href="/assets/js/106.3e47fd85.js"><link rel="prefetch" href="/assets/js/107.f8927857.js"><link rel="prefetch" href="/assets/js/108.356b5e37.js"><link rel="prefetch" href="/assets/js/109.69f2d5c1.js"><link rel="prefetch" href="/assets/js/11.4026b58f.js"><link rel="prefetch" href="/assets/js/110.556fec72.js"><link rel="prefetch" href="/assets/js/111.6ef443a4.js"><link rel="prefetch" href="/assets/js/112.76a56c32.js"><link rel="prefetch" href="/assets/js/113.0ff37803.js"><link rel="prefetch" href="/assets/js/114.b1e06b4a.js"><link rel="prefetch" href="/assets/js/115.0bb72796.js"><link rel="prefetch" href="/assets/js/116.68f9a161.js"><link rel="prefetch" href="/assets/js/117.314dc57a.js"><link rel="prefetch" href="/assets/js/118.82ddfa68.js"><link rel="prefetch" href="/assets/js/119.c2377c89.js"><link rel="prefetch" href="/assets/js/12.255ae536.js"><link rel="prefetch" href="/assets/js/120.7cdceb05.js"><link rel="prefetch" href="/assets/js/121.998c6f47.js"><link rel="prefetch" href="/assets/js/122.4a199325.js"><link rel="prefetch" href="/assets/js/123.93db3cac.js"><link rel="prefetch" href="/assets/js/124.8c2d6bda.js"><link rel="prefetch" href="/assets/js/125.1ece7dc8.js"><link rel="prefetch" href="/assets/js/126.d4ecacc7.js"><link rel="prefetch" href="/assets/js/127.5f3cde06.js"><link rel="prefetch" href="/assets/js/128.6d005738.js"><link rel="prefetch" href="/assets/js/129.c05206d0.js"><link rel="prefetch" href="/assets/js/13.717282cd.js"><link rel="prefetch" href="/assets/js/130.5b171fa1.js"><link rel="prefetch" href="/assets/js/131.426cce1c.js"><link rel="prefetch" href="/assets/js/132.cdce7d33.js"><link rel="prefetch" href="/assets/js/133.d60269ae.js"><link rel="prefetch" href="/assets/js/134.b38486d3.js"><link rel="prefetch" href="/assets/js/135.b5875bad.js"><link rel="prefetch" href="/assets/js/136.2ced1774.js"><link rel="prefetch" href="/assets/js/137.d5c3146c.js"><link rel="prefetch" href="/assets/js/138.a4bbe92c.js"><link rel="prefetch" href="/assets/js/139.28a56886.js"><link rel="prefetch" href="/assets/js/14.da212082.js"><link rel="prefetch" href="/assets/js/140.cdea9aa2.js"><link rel="prefetch" href="/assets/js/141.b3e14723.js"><link rel="prefetch" href="/assets/js/142.45489ba2.js"><link rel="prefetch" href="/assets/js/143.69471b74.js"><link rel="prefetch" href="/assets/js/144.93572009.js"><link rel="prefetch" href="/assets/js/145.cc0f1b09.js"><link rel="prefetch" href="/assets/js/146.a0edd0ae.js"><link rel="prefetch" href="/assets/js/147.5b65217f.js"><link rel="prefetch" href="/assets/js/148.e32e8a97.js"><link rel="prefetch" href="/assets/js/149.29e3b9e9.js"><link rel="prefetch" href="/assets/js/15.73363e96.js"><link rel="prefetch" href="/assets/js/150.2ae789b4.js"><link rel="prefetch" href="/assets/js/151.63ae88a6.js"><link rel="prefetch" href="/assets/js/152.395a208d.js"><link rel="prefetch" href="/assets/js/153.b8c259b8.js"><link rel="prefetch" href="/assets/js/154.3a5efdac.js"><link rel="prefetch" href="/assets/js/155.5cfc469f.js"><link rel="prefetch" href="/assets/js/16.655a561c.js"><link rel="prefetch" href="/assets/js/17.74a6531c.js"><link rel="prefetch" href="/assets/js/18.aa97443c.js"><link rel="prefetch" href="/assets/js/19.aba74e06.js"><link rel="prefetch" href="/assets/js/20.eb7043d1.js"><link rel="prefetch" href="/assets/js/21.67922bdc.js"><link rel="prefetch" href="/assets/js/22.e3652a46.js"><link rel="prefetch" href="/assets/js/23.ef913683.js"><link rel="prefetch" href="/assets/js/24.dc2d1d90.js"><link rel="prefetch" href="/assets/js/25.ae9f249a.js"><link rel="prefetch" href="/assets/js/26.31f4ecb7.js"><link rel="prefetch" href="/assets/js/27.3338bd19.js"><link rel="prefetch" href="/assets/js/28.be6432ba.js"><link rel="prefetch" href="/assets/js/29.f5f23b2f.js"><link rel="prefetch" href="/assets/js/3.5b21ce5d.js"><link rel="prefetch" href="/assets/js/30.c19121f9.js"><link rel="prefetch" href="/assets/js/31.19b5b53f.js"><link rel="prefetch" href="/assets/js/32.c1b86030.js"><link rel="prefetch" href="/assets/js/33.881edbec.js"><link rel="prefetch" href="/assets/js/34.fa7a4578.js"><link rel="prefetch" href="/assets/js/35.2e25807a.js"><link rel="prefetch" href="/assets/js/36.7a75f260.js"><link rel="prefetch" href="/assets/js/37.428e79c9.js"><link rel="prefetch" href="/assets/js/38.ddb5f897.js"><link rel="prefetch" href="/assets/js/39.53098e5d.js"><link rel="prefetch" href="/assets/js/4.c4a820fc.js"><link rel="prefetch" href="/assets/js/40.6ce2c5a1.js"><link rel="prefetch" href="/assets/js/41.e33bfffe.js"><link rel="prefetch" href="/assets/js/42.69fcaa28.js"><link rel="prefetch" href="/assets/js/43.a0564b00.js"><link rel="prefetch" href="/assets/js/44.8950c8df.js"><link rel="prefetch" href="/assets/js/45.e343ef25.js"><link rel="prefetch" href="/assets/js/46.4af5f6ef.js"><link rel="prefetch" href="/assets/js/47.17671f1f.js"><link rel="prefetch" href="/assets/js/48.ad36a97b.js"><link rel="prefetch" href="/assets/js/49.33ac7175.js"><link rel="prefetch" href="/assets/js/5.416d4c18.js"><link rel="prefetch" href="/assets/js/50.eea27540.js"><link rel="prefetch" href="/assets/js/51.40c8a591.js"><link rel="prefetch" href="/assets/js/52.8f96dcd9.js"><link rel="prefetch" href="/assets/js/53.4f4b8233.js"><link rel="prefetch" href="/assets/js/54.0e2fac5a.js"><link rel="prefetch" href="/assets/js/55.7c67893e.js"><link rel="prefetch" href="/assets/js/56.3fd7da35.js"><link rel="prefetch" href="/assets/js/57.45adfaac.js"><link rel="prefetch" href="/assets/js/58.c087784d.js"><link rel="prefetch" href="/assets/js/59.0d57246d.js"><link rel="prefetch" href="/assets/js/6.fbea2f2c.js"><link rel="prefetch" href="/assets/js/60.bde2b77a.js"><link rel="prefetch" href="/assets/js/61.95503e60.js"><link rel="prefetch" href="/assets/js/62.deaf1e9f.js"><link rel="prefetch" href="/assets/js/63.06ba4cd9.js"><link rel="prefetch" href="/assets/js/64.d588dbd0.js"><link rel="prefetch" href="/assets/js/65.68365c70.js"><link rel="prefetch" href="/assets/js/66.e4cbf8ab.js"><link rel="prefetch" href="/assets/js/67.21d86d52.js"><link rel="prefetch" href="/assets/js/68.bd45aed4.js"><link rel="prefetch" href="/assets/js/69.2cfcbb4b.js"><link rel="prefetch" href="/assets/js/7.10b7f2d0.js"><link rel="prefetch" href="/assets/js/70.42595b2c.js"><link rel="prefetch" href="/assets/js/72.99c7941d.js"><link rel="prefetch" href="/assets/js/73.61a33280.js"><link rel="prefetch" href="/assets/js/74.76e9aad6.js"><link rel="prefetch" href="/assets/js/75.023ed441.js"><link rel="prefetch" href="/assets/js/76.6ab957b9.js"><link rel="prefetch" href="/assets/js/77.9165762c.js"><link rel="prefetch" href="/assets/js/78.5033f215.js"><link rel="prefetch" href="/assets/js/79.743d8e0a.js"><link rel="prefetch" href="/assets/js/8.9aabeaab.js"><link rel="prefetch" href="/assets/js/80.1395710e.js"><link rel="prefetch" href="/assets/js/81.dd0c9812.js"><link rel="prefetch" href="/assets/js/82.b0177d9e.js"><link rel="prefetch" href="/assets/js/83.42295fa0.js"><link rel="prefetch" href="/assets/js/84.168fe077.js"><link rel="prefetch" href="/assets/js/85.b5189fe9.js"><link rel="prefetch" href="/assets/js/86.a318096b.js"><link rel="prefetch" href="/assets/js/87.d731ccf0.js"><link rel="prefetch" href="/assets/js/88.a705eece.js"><link rel="prefetch" href="/assets/js/89.2b956a21.js"><link rel="prefetch" href="/assets/js/9.06c7c692.js"><link rel="prefetch" href="/assets/js/90.cbf92cf9.js"><link rel="prefetch" href="/assets/js/91.9a182d61.js"><link rel="prefetch" href="/assets/js/92.559a7d41.js"><link rel="prefetch" href="/assets/js/93.fdef9027.js"><link rel="prefetch" href="/assets/js/94.187f5464.js"><link rel="prefetch" href="/assets/js/95.89c1cbde.js"><link rel="prefetch" href="/assets/js/96.1e713ea3.js"><link rel="prefetch" href="/assets/js/97.081c6949.js"><link rel="prefetch" href="/assets/js/98.8f8e9d4a.js"><link rel="prefetch" href="/assets/js/99.b11c90a8.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.64cd44ad.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">SandLZ</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机" class="dropdown-title"><span class="title">计算机</span> <span class="arrow down"></span></button> <button type="button" aria-label="计算机" class="mobile-dropdown-title"><span class="title">计算机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/computer/compile/" class="nav-link">
+  编译原理
+</a></li><li class="dropdown-subitem"><a href="/computer/communication-protocol/" class="nav-link">
+  通信协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/computer/data-structure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/computer/algorithm/" class="nav-link">
+  算法
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="基础" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          三剑客
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/base/html/semantization.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/base/css/base.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/base/javascript/data-type.html" class="nav-link">
+  JavaScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          浏览器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/base/browser/" class="nav-link">
+  Browser
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/advance/design-patterns/" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/architecture-mode/" class="nav-link">
+  架构模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/programe-paradigms/" class="nav-link">
+  编程范型
+</a></li><li class="dropdown-item"><!----> <a href="/advance/programe-design/" class="nav-link">
+  程序设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">工程化</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">工程化</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/engineering/ci-cd/" class="nav-link">
+  CI/CD
+</a></li><li class="dropdown-item"><!----> <a href="/engineering/code-standard/code-format.html" class="nav-link">
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/engineering/code-quality/unit-test.html" class="nav-link">
+  代码质量
+</a></li><li class="dropdown-item"><h4>
+          版本管理
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/version-manage/git.html" class="nav-link">
+  Git
+</a></li></ul></li><li class="dropdown-item"><h4>
+          转换工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/trans-tool/babel.html" class="nav-link">
+  Babel
+</a></li></ul></li><li class="dropdown-item"><h4>
+          构建工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/build-tool/webpack.html" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/engineering/build-tool/rollup.html" class="nav-link">
+  Rollup
+</a></li></ul></li><li class="dropdown-item"><h4>
+          语言增强
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/lan-enhancement/scss/scss.html" class="nav-link">
+  Scss
+</a></li><li class="dropdown-subitem"><a href="/engineering/lan-enhancement/typescript.html" class="nav-link">
+  TypeScript
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          FE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/framework/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/framework/angular/" class="nav-link">
+  Angular
+</a></li></ul></li><li class="dropdown-item"><h4>
+          BE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/nodejs/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-subitem"><a href="/backend/express/" class="nav-link">
+  Express
+</a></li><li class="dropdown-subitem"><a href="/backend/koa/" class="nav-link">
+  Koa
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="客户端" class="dropdown-title"><span class="title">客户端</span> <span class="arrow down"></span></button> <button type="button" aria-label="客户端" class="mobile-dropdown-title"><span class="title">客户端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/client/jsbridge/" class="nav-link">
+  JSBridge
+</a></li><li class="dropdown-item"><!----> <a href="/client/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/client/react-native/" class="nav-link">
+  React Native
+</a></li><li class="dropdown-item"><!----> <a href="/client/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/client/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端发展" class="dropdown-title"><span class="title">前端发展</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端发展" class="mobile-dropdown-title"><span class="title">前端发展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend-development/ssr/" class="nav-link">
+  SSR
+</a></li><li class="dropdown-item"><!----> <a href="/frontend-development/micro-frontend/" class="nav-link">
+  微前端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/other/team/private-npm.html" class="nav-link">
+  团队协作
+</a></li><li class="dropdown-item"><!----> <a href="/other/project-manage/" class="nav-link">
+  项目管理
+</a></li><li class="dropdown-item"><!----> <a href="/other/design/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/SandLZ" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="计算机" class="dropdown-title"><span class="title">计算机</span> <span class="arrow down"></span></button> <button type="button" aria-label="计算机" class="mobile-dropdown-title"><span class="title">计算机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/computer/compile/" class="nav-link">
+  编译原理
+</a></li><li class="dropdown-subitem"><a href="/computer/communication-protocol/" class="nav-link">
+  通信协议
+</a></li></ul></li><li class="dropdown-item"><h4>
+          进阶
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/computer/data-structure/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/computer/algorithm/" class="nav-link">
+  算法
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="基础" class="dropdown-title"><span class="title">基础</span> <span class="arrow down"></span></button> <button type="button" aria-label="基础" class="mobile-dropdown-title"><span class="title">基础</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          三剑客
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/base/html/semantization.html" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/base/css/base.html" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/base/javascript/data-type.html" class="nav-link">
+  JavaScript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          浏览器
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/base/browser/" class="nav-link">
+  Browser
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">进阶</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">进阶</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/advance/design-patterns/" class="nav-link">
+  设计模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/architecture-mode/" class="nav-link">
+  架构模式
+</a></li><li class="dropdown-item"><!----> <a href="/advance/programe-paradigms/" class="nav-link">
+  编程范型
+</a></li><li class="dropdown-item"><!----> <a href="/advance/programe-design/" class="nav-link">
+  程序设计
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="进阶" class="dropdown-title"><span class="title">工程化</span> <span class="arrow down"></span></button> <button type="button" aria-label="进阶" class="mobile-dropdown-title"><span class="title">工程化</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/engineering/ci-cd/" class="nav-link">
+  CI/CD
+</a></li><li class="dropdown-item"><!----> <a href="/engineering/code-standard/code-format.html" class="nav-link">
+  代码规范
+</a></li><li class="dropdown-item"><!----> <a href="/engineering/code-quality/unit-test.html" class="nav-link">
+  代码质量
+</a></li><li class="dropdown-item"><h4>
+          版本管理
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/version-manage/git.html" class="nav-link">
+  Git
+</a></li></ul></li><li class="dropdown-item"><h4>
+          转换工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/trans-tool/babel.html" class="nav-link">
+  Babel
+</a></li></ul></li><li class="dropdown-item"><h4>
+          构建工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/build-tool/webpack.html" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/engineering/build-tool/rollup.html" class="nav-link">
+  Rollup
+</a></li></ul></li><li class="dropdown-item"><h4>
+          语言增强
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/engineering/lan-enhancement/scss/scss.html" class="nav-link">
+  Scss
+</a></li><li class="dropdown-subitem"><a href="/engineering/lan-enhancement/typescript.html" class="nav-link">
+  TypeScript
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架" class="dropdown-title"><span class="title">框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架" class="mobile-dropdown-title"><span class="title">框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          FE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/framework/vue/" class="nav-link">
+  Vue
+</a></li><li class="dropdown-subitem"><a href="/framework/react/" class="nav-link">
+  React
+</a></li><li class="dropdown-subitem"><a href="/framework/angular/" class="nav-link">
+  Angular
+</a></li></ul></li><li class="dropdown-item"><h4>
+          BE
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/nodejs/" class="nav-link">
+  Node.js
+</a></li><li class="dropdown-subitem"><a href="/backend/express/" class="nav-link">
+  Express
+</a></li><li class="dropdown-subitem"><a href="/backend/koa/" class="nav-link">
+  Koa
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="客户端" class="dropdown-title"><span class="title">客户端</span> <span class="arrow down"></span></button> <button type="button" aria-label="客户端" class="mobile-dropdown-title"><span class="title">客户端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/client/jsbridge/" class="nav-link">
+  JSBridge
+</a></li><li class="dropdown-item"><!----> <a href="/client/electron/" class="nav-link">
+  Electron
+</a></li><li class="dropdown-item"><!----> <a href="/client/react-native/" class="nav-link">
+  React Native
+</a></li><li class="dropdown-item"><!----> <a href="/client/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/client/cordova/" class="nav-link">
+  Cordova
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端发展" class="dropdown-title"><span class="title">前端发展</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端发展" class="mobile-dropdown-title"><span class="title">前端发展</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frontend-development/ssr/" class="nav-link">
+  SSR
+</a></li><li class="dropdown-item"><!----> <a href="/frontend-development/micro-frontend/" class="nav-link">
+  微前端
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他" class="dropdown-title"><span class="title">其他</span> <span class="arrow down"></span></button> <button type="button" aria-label="其他" class="mobile-dropdown-title"><span class="title">其他</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/other/team/private-npm.html" class="nav-link">
+  团队协作
+</a></li><li class="dropdown-item"><!----> <a href="/other/project-manage/" class="nav-link">
+  项目管理
+</a></li><li class="dropdown-item"><!----> <a href="/other/design/" class="nav-link">
+  架构设计
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/SandLZ" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>JavaScript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/base/javascript/data-type.html" class="sidebar-link">数据类型</a></li><li><a href="/base/javascript/number.html" class="sidebar-link">数字</a></li><li><a href="/base/javascript/array.html" class="sidebar-link">数组</a></li><li><a href="/base/javascript/map-set.html" class="sidebar-link">Map &amp; Set</a></li><li><a href="/base/javascript/promise.html" aria-current="page" class="active sidebar-link">Promise</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/base/javascript/promise.html#简介" class="sidebar-link">简介</a></li><li class="sidebar-sub-header"><a href="/base/javascript/promise.html#基本用法" class="sidebar-link">基本用法</a></li><li class="sidebar-sub-header"><a href="/base/javascript/promise.html#实现原理" class="sidebar-link">实现原理</a></li></ul></li><li><a href="/base/javascript/proxy.html" class="sidebar-link">Proxy</a></li><li><a href="/base/javascript/reflect.html" class="sidebar-link">Reflect</a></li><li><a href="/base/javascript/constructor.html" class="sidebar-link">构造函数与 new</a></li><li><a href="/base/javascript/prototype.html" class="sidebar-link">继承与原型链</a></li><li><a href="/base/javascript/scope.html" class="sidebar-link">作用域</a></li><li><a href="/base/javascript/this.html" class="sidebar-link">this</a></li><li><a href="/base/javascript/closure.html" class="sidebar-link">闭包</a></li><li><a href="/base/javascript/strict.html" class="sidebar-link">严格模式</a></li><li><a href="/base/javascript/regex.html" class="sidebar-link">正则表达式</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>手写系列</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="promise"><a href="#promise" class="header-anchor">#</a> Promise</h1> <blockquote><p><code>Promise</code> 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6 将其写进了语言标准，统一了用法，原生提供了<code>Promise</code>对象。</p></blockquote> <h2 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h2> <p>特点：</p> <ol><li>对象状态不受外界影响</li></ol> <p>有三种状态：</p> <ul><li><code>pending</code> 进行中</li> <li><code>fulfilled</code> 已成功</li> <li><code>rejected</code> 已失败</li></ul> <p>只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态。这也是 Promise 这个名字的由来，它的英语意思就是“承诺”，表示其他手段无法改变。</p> <ol start="2"><li>一旦状态改变，就不会再变，任何时候都可以得到这个结果</li></ol> <p>只有两种可能：</p> <ul><li><code>pending</code> -&gt; <code>fulfilled</code></li> <li><code>pending</code> -&gt; <code>rejected</code></li></ul> <p>只要这两种情况发生了，就不会再变了，会一直保持这个结果，这时就称为 <code>resolved</code>（已定型）。
+如果改变已经发生了，你再对<code>Promise</code>对象添加回调函数，也会立即得到这个结果。这与事件（<code>Event</code>）完全不同，事件的特点是，如果你错过了它，再去监听，是得不到结果的。</p> <p>优点：</p> <ul><li>将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数</li> <li><code>Promise</code>对象提供统一的接口，使得控制异步操作更加容易</li></ul> <p>缺点：</p> <ul><li>无法取消<code>Promise</code>，一旦新建它就会立即执行，无法中途取消</li> <li>不设置回调函数，<code>Promise</code>内部抛出的错误，不会反应到外部</li> <li>当处于<code>pending</code>状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）</li></ul> <h2 id="基本用法"><a href="#基本用法" class="header-anchor">#</a> 基本用法</h2> <p>ES6 规定，<code>Promise</code>对象是一个构造函数，用来生成 Promise 实例。</p> <p>下面代码创造了一个<code>Promise</code>实例。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> promise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ... some code</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token comment">/* 异步操作成功 */</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">resolve</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token function">reject</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><code>Promise</code>实例生成以后，可以用 then 方法分别指定 resolved 状态和 rejected 状态的回调函数。</p> <div class="language-js extra-class"><pre class="language-js"><code>promise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
+  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// success</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// failure</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="错误捕获"><a href="#错误捕获" class="header-anchor">#</a> 错误捕获</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// bad</span>
+promise<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span>
+  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// success</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// error</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// good</span>
+promise
+  <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">//cb</span>
+    <span class="token comment">// success</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">err</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// error</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>上面代码中，第二种写法要好于第一种写法，理由是第二种写法可以捕获前面<code>then</code>方法执行中的错误，也更接近同步的写法（<code>try/catch</code>）。因此，建议总是使用<code>catch()</code>方法，而不使用<code>then()</code>方法的第二个参数。</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>如果没有使用<code>catch()</code>方法指定错误处理的回调函数，<code>Promise</code> 对象抛出的错误不会传递到外层代码，即不会有任何反应。</p></div> <h3 id="finally"><a href="#finally" class="header-anchor">#</a> <code>finally</code></h3> <p><code>finally()</code>方法用于指定不管 <code>Promise</code> 对象最后状态如何，都会执行的操作。该方法是 <code>ES2018</code> 引入标准的。</p> <div class="language-js extra-class"><pre class="language-js"><code>promise
+<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">result</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>···<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token parameter">error</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>···<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token function">finally</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>···<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="all"><a href="#all" class="header-anchor">#</a> <code>all</code></h3> <p><code>Promise.all()</code>方法用于将多个 <code>Promise</code> 实例，包装成一个新的 <code>Promise</code> 实例。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> p <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>上面代码中，<code>Promise.all()</code>方法接受一个数组作为参数，<code>p1</code>、<code>p2</code>、<code>p3</code>都是 <code>Promise</code> 实例，如果不是，就会先调用下面讲到的<code>Promise.resolve</code>方法，将参数转为 <code>Promise</code> 实例，再进一步处理。另外，<code>Promise.all()</code>方法的参数可以不是数组，但必须具有 <code>Iterator</code> 接口，且返回的每个成员都是 <code>Promise</code> 实例。</p> <p><code>p</code>的状态由<code>p1</code>、<code>p2</code>、<code>p3</code>决定，分成两种情况。</p> <p>（1）只有<code>p1</code>、<code>p2</code>、<code>p3</code>的状态都变成<code>fulfilled</code>，<code>p</code>的状态才会变成<code>fulfilled</code>，此时<code>p1</code>、<code>p2</code>、<code>p3</code>的返回值组成一个数组，传递给<code>p</code>的回调函数。</p> <p>（2）只要<code>p1</code>、<code>p2</code>、<code>p3</code>之中有一个被<code>rejected</code>，<code>p</code>的状态就变成<code>rejected</code>，此时第一个被<code>reject</code>的实例的返回值，会传递给<code>p</code>的回调函数。</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>注意，如果作为参数的 <code>Promise</code> 实例，自己定义了<code>catch</code>方法，那么它一旦被<code>rejected</code>，并不会触发<code>Promise.all()</code>的<code>catch</code>方法。</p></div> <h3 id="race"><a href="#race" class="header-anchor">#</a> <code>race</code></h3> <p><code>Promise.race()</code>方法同样是将多个 <code>Promise</code> 实例，包装成一个新的 <code>Promise</code> 实例。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> p <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">race</span><span class="token punctuation">(</span><span class="token punctuation">[</span>p1<span class="token punctuation">,</span> p2<span class="token punctuation">,</span> p3<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>上面代码中，只要<code>p1</code>、<code>p2</code>、<code>p3</code>之中有一个实例率先改变状态，<code>p</code>的状态就跟着改变。那个率先改变的 <code>Promise</code> 实例的返回值，就传递给<code>p</code>的回调函数。</p> <p><code>Promise.race()</code>方法的参数与<code>Promise.all()</code>方法一样，如果不是 <code>Promise</code> 实例，就会先调用下面讲到的<code>Promise.resolve()</code>方法，将参数转为 <code>Promise</code> 实例，再进一步处理。</p> <h3 id="allsettled"><a href="#allsettled" class="header-anchor">#</a> <code>allSettled</code></h3> <p>有时候，我们希望等到一组异步操作都结束了，不管每一个操作是成功还是失败，再进行下一步操作。但是，现有的 Promise 方法很难实现这个要求。</p> <p><code>Promise.all()</code>方法只适合所有异步操作都成功的情况，如果有一个操作失败，就无法满足要求。</p> <p>为了解决这个问题，<code>ES2020</code> 引入了<code>Promise.allSettled()</code>方法，用来确定一组异步操作是否都结束了（不管成功或失败）。所以，它的名字叫做<code>”Settled“</code>，包含了<code>”fulfilled“</code>和<code>”rejected“</code>两种情况。</p> <p><code>Promise.allSettled()</code>方法接受一个数组作为参数，数组的每个成员都是一个 <code>Promise</code> 对象，并返回一个新的 <code>Promise</code> 对象。只有等到参数数组的所有 <code>Promise</code> 对象都发生状态变更（不管是<code>fulfilled</code>还是<code>rejected</code>），返回的 <code>Promise</code> 对象才会发生状态变更。</p> <p>成员对象的<code>status</code>属性的值只可能是字符串<code>fulfilled</code>或字符串<code>rejected</code>，用来区分异步操作是成功还是失败。如果是成功（<code>fulfilled</code>），对象会有<code>value</code>属性，如果是失败（<code>rejected</code>），会有<code>reason</code>属性，对应两种状态时前面异步操作的返回值。</p> <h3 id="any"><a href="#any" class="header-anchor">#</a> <code>any</code></h3> <p><code>ES2021</code> 引入了<code>Promise.any()</code>方法。该方法接受一组 <code>Promise</code> 实例作为参数，包装成一个新的 <code>Promise</code> 实例返回。</p> <div class="language-js extra-class"><pre class="language-js"><code>Promise<span class="token punctuation">.</span><span class="token function">any</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">&quot;https://v8.dev/&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&quot;home&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">&quot;https://v8.dev/blog&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&quot;blog&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">&quot;https://v8.dev/docs&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token string">&quot;docs&quot;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">first</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 只要有一个 fetch() 请求成功</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>first<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 所有三个 fetch() 全部请求失败</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>只要参数实例有一个变成<code>fulfilled</code>状态，包装实例就会变成<code>fulfilled</code>状态；如果所有参数实例都变成<code>rejected</code>状态，包装实例就会变成<code>rejected</code>状态。</p> <p><code>Promise.any()</code>跟<code>Promise.race()</code>方法很像，只有一点不同，就是<code>Promise.any()</code>不会因为某个 <code>Promise</code> 变成<code>rejected</code>状态而结束，必须等到所有参数 <code>Promise</code> 变成<code>rejected</code>状态才会结束。</p> <h3 id="resolve"><a href="#resolve" class="header-anchor">#</a> <code>resolve</code></h3> <p>将现有对象转为 <code>Promise</code> 对象</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> jsPromise <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>$<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token string">&quot;/whatever.json&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><code>Promise.resolve()</code>等价于下面的写法。</p> <div class="language-js extra-class"><pre class="language-js"><code>Promise<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">&quot;foo&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 等价于</span>
+<span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">&quot;foo&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>立即<code>resolve()</code>的 <code>Promise</code> 对象，是在本轮“事件循环”（<code>event loop</code>）的结束时执行，而不是在下一轮“事件循环”的开始时。</p></div> <h3 id="reject"><a href="#reject" class="header-anchor">#</a> <code>reject</code></h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> p <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token string">&quot;出错了&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 等同于</span>
+<span class="token keyword">const</span> p <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token function">reject</span><span class="token punctuation">(</span><span class="token string">&quot;出错了&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+p<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">s</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>s<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// 出错了</span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>Promise<span class="token punctuation">.</span><span class="token function">reject</span><span class="token punctuation">(</span><span class="token string">&quot;出错了&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e <span class="token operator">===</span> <span class="token string">&quot;出错了&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// true</span>
+</code></pre></div><h2 id="实现原理"><a href="#实现原理" class="header-anchor">#</a> 实现原理</h2></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2/28/2023, 2:23:25 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/base/javascript/map-set.html" class="prev">
+        Map &amp; Set
+      </a></span> <span class="next"><a href="/base/javascript/proxy.html">
+        Proxy
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.1d921817.js" defer></script><script src="/assets/js/2.77cf891e.js" defer></script><script src="/assets/js/71.95906190.js" defer></script>
+  </body>
+</html>

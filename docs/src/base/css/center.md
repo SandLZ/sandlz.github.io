@@ -355,7 +355,7 @@
 ```
 
 <div class="parent11" style="background-color: lightgray;width:200px;">
-    <img class="child11" src="https://gitee.com/sandlz/images/raw/master/uPic/lP5PqpRluKU.jpg" width="50%" alt="test">  
+    <img class="child11" src="https://github.com/sandlz/images/raw/master/uPic/lP5PqpRluKU.jpg" width="50%" alt="test">  
 </div>
 
 3. `absolute`
@@ -573,7 +573,7 @@
 </style>
 
 <div class="parent21" style="background-color: gray; width:200px; ">
-  <img class="child21" src="https://gitee.com/sandlz/images/raw/master/uPic/lP5PqpRluKU.jpg" width="50%" alt="test">
+  <img class="child21" src="https://github.com/sandlz/images/raw/master/uPic/lP5PqpRluKU.jpg" width="50%" alt="test">
 </div>
 
 3. `margin` + 垂直对齐

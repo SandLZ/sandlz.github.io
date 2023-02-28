@@ -6,7 +6,7 @@ Canvas可理解为画布，栅格化的。
 ## 使用场景
 小游戏、头像裁剪、Charts
 ## 基本知识
-![image](https://gitee.com/zliu/images/raw/master/uPic/Canvas入门.png)
+![image](https://github.com/zliu/images/raw/master/uPic/Canvas入门.png)
 ### 坐标系、API、属性
 #### API
 
@@ -386,23 +386,23 @@ Path2D.rect(0, 0, 200, 200)
 ### 弧：Arc
 圆、椭圆
 <div style="width:100%">
-    <img style="width: 33%"  src="https://gitee.com/zliu/images/raw/master/uPic/arc.jpg" />
-    <img style="width: 33%" src="https://gitee.com/zliu/images/raw/master/uPic/arcTo_02.jpg" />
-    <img style="width: 33%" src="https://gitee.com/zliu/images/raw/master/uPic/eliipse.jpg" />
+    <img style="width: 33%"  src="https://github.com/zliu/images/raw/master/uPic/arc.jpg" />
+    <img style="width: 33%" src="https://github.com/zliu/images/raw/master/uPic/arcTo_02.jpg" />
+    <img style="width: 33%" src="https://github.com/zliu/images/raw/master/uPic/eliipse.jpg" />
 </div>
 
 
 ### 曲线 ：Bezier
-![image](https://gitee.com/zliu/images/raw/master/uPic/54diwjdj8b.gif)
-![image](https://gitee.com/zliu/images/raw/master/uPic/mhmuin6c2w.gif)
+![image](https://github.com/zliu/images/raw/master/uPic/54diwjdj8b.gif)
+![image](https://github.com/zliu/images/raw/master/uPic/mhmuin6c2w.gif)
 ### fillRule
-![image](https://gitee.com/zliu/images/raw/master/uPic/Even-odd_and_non-zero_winding_fill_rules3.jpg)
+![image](https://github.com/zliu/images/raw/master/uPic/Even-odd_and_non-zero_winding_fill_rules3.jpg)
 ## 变换
-![image](https://gitee.com/zliu/images/raw/master/uPic/EVw5K5.png)
+![image](https://github.com/zliu/images/raw/master/uPic/EVw5K5.png)
 ## 文字
 水平、垂直方向
-![image](https://gitee.com/zliu/images/raw/master/uPic/OelvkD.png)
-![image](https://gitee.com/zliu/images/raw/master/uPic/BJwOpR.png)
+![image](https://github.com/zliu/images/raw/master/uPic/OelvkD.png)
+![image](https://github.com/zliu/images/raw/master/uPic/BJwOpR.png)
 ## 图片
 图片绘制支持多种来源
 ## 动画

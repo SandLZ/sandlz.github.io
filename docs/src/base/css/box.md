@@ -8,11 +8,11 @@
 - IE 盒模型(border-box)
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/box_normal.jpeg" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/box_normal.jpeg" style="width: 80%">
 </div>
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/box_ie.jpeg" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/box_ie.jpeg" style="width: 80%">
 </div>
 
 在 CSS 中盒模型被分为两种，第一种是 W3C 的标准模型，第二种是 IE 怪异盒模型。不同之处在于后者的宽高定义的是可见元素框的尺寸，而不是元素框的内容区尺寸。目前对于浏览器大多数元素都是基于 W3C 标准的盒模型，但对于表单 form 中的部分元素还是基于 IE 的怪异盒模型，如 input 里的 radio、checkbox、button 等元素，如果给其设置 border 和 padding 它们也只会往元素盒内延伸

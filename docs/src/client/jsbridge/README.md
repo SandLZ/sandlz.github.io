@@ -4,7 +4,7 @@
 通过 JSBridge，Web 端可以调用 Native 端的 Java 接口，同样 Native 端也可以通过 JSBridge 调用 Web 端的 JavaScript 接口，实现彼此的双向调用
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/lUlldB.png" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/lUlldB.png" />
 </div>
 
 ## Webview
@@ -129,7 +129,7 @@ iOS 的 WKWebView 提供了 WKScriptMessageHandler
 前面已经说到了 Native、Web 间双向通信的两种方法，但站在一端而言还是一个单向通信的过程 ，比如站在 Web 的角度：Web 调用 Native 的方法，Native 直接相关操作但无法将结果返回给 Web，但实际使用中会经常需要将操作的结果返回，也就是 JS 回调。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/1gjCWI.png"  />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/1gjCWI.png"  />
 </div>
 
 可以看到实际上还是通过两次单项通信实现的。

@@ -9,11 +9,11 @@
 下面两张图是网上找的，很清晰的表明了一个请求是如何经过中间件最后生成响应的，这种模式中开发和使用中间件都是非常方便的
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/onion_model_01.png"  />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/onion_model_01.png"  />
 </div>
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/onion_model_02.png"  />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/onion_model_02.png"  />
 </div>
 
 来看一个`koa2`的 demo:

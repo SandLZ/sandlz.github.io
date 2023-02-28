@@ -27,7 +27,7 @@
 ## 传输密钥的过程
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/lQDDZ9.jpg">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/lQDDZ9.jpg">
 </div>
 
 ### 图解传输密钥的过程
@@ -39,7 +39,7 @@ HTTPS 采用对称加密来加密通信内容，所用的密钥称为 A。用非
 我们来看密钥的传输过程
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/gjUAPq.jpg">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/gjUAPq.jpg">
 </div>
 
 ## 为什么 HTTPS 是可靠的？
@@ -62,7 +62,7 @@ HTTPS 是可靠的，因为它解决了三个问题。
 最后让我们再来回顾一下每一把密钥的作用
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/Ei7GsQ.jpg">
+    <img src="https://github.com/sandlz/images/raw/master/uPic/Ei7GsQ.jpg">
 </div>
 
 转载于[为什么HTTPS是安全的](https://juejin.cn/post/6844904160089882631)

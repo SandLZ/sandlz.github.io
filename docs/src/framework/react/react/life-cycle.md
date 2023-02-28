@@ -5,13 +5,13 @@
 ### 16.3
 
 <div>
-    <img class="zoom-img" src="https://gitee.com/sandlz/images/raw/master/uPic/Pgj15w.png" />
+    <img class="zoom-img" src="https://github.com/sandlz/images/raw/master/uPic/Pgj15w.png" />
 </div>
 
 ### >= 16.4
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/9VFpyw.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/9VFpyw.png" />
 </div>
 
 ## constructor()

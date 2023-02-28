@@ -7,7 +7,7 @@
 ## 控制台日志
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/MX5TX5.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/MX5TX5.png" />
 </div>
 
 ## 使用

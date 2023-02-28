@@ -673,7 +673,7 @@ Vue 实现了一套内容分发的 API，这套 API 的设计灵感源自 Web Co
 该插槽可以访问与模板其余部分相同的实例 `property` (即相同的“作用域”)。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/slot.png" style="width=80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/slot.png" style="width=80%">
 </div>
 
 插槽不能访问 <todo-button> 的作用域。例如，尝试访问 action 将不起作用：
@@ -874,7 +874,7 @@ app.component("todo-list", {
 ```
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/scoped-slot.png" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/scoped-slot.png" style="width: 80%">
 </div>
 
 在这个例子中，我们选择将包含所有插槽 prop 的对象命名为 slotProps，但你也可以使用任意你喜欢的名字。
@@ -1019,7 +1019,7 @@ app.component("todo-list", {
 对于这种情况，我们可以使用一对 `provide` 和 `inject`。无论组件层次结构有多深，父组件都可以作为其所有子组件的依赖提供者。这个特性有两个部分：父组件有一个 `provide` 选项来提供数据，子组件有一个 `inject` 选项来开始使用这些数据。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/components_provide.png" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/components_provide.png" style="width: 80%">
 </div>
 
 例如，我们有这样的层次结构：

@@ -36,7 +36,7 @@
 也就是说，`HTTP`管道化可以让我们把先进先出队列从客户端（请求队列）迁移到服务端（响应队列）。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/http_01.png" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/http_01.png" />
 </div>
 
 如图所示，客户端同时发了两个请求分别来获取`html`和`css`，假如说服务器的`css`资源先准备就绪，服务器也会先发送`html`再发送`css`。
@@ -46,7 +46,7 @@
 可见，`HTTP1.1`还是无法解决队头阻塞（`head of line blocking`）的问题。同时“管道化”技术存在各种各样的问题，所以很多浏览器要么根本不支持它，要么就直接默认关闭，并且开启的条件很苛刻...而且实际上好像并没有什么用处。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/http_02.png" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/http_02.png" />
 </div>
 如图所示，绿色部分代表请求发起到服务器响应的一个等待时间，而蓝色部分表示资源的下载时间。按照理论来说，`HTTP`响应理应当是前一个响应的资源下载完了，下一个响应的资源才能开始下载。而这里却出现了响应资源下载并行的情况。这又是为什么呢？
 
@@ -63,7 +63,7 @@
 HTTP2.0 通过在应用层和传输层之间增加一个二进制分帧层，突破了 HTTP1.1 的性能限制、改进传输性能。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/http_03.jpeg" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/http_03.jpeg" />
 </div>
 
 可见，虽然`HTTP2.0`的协议和`HTTP1.x`协议之间的规范完全不同了，但是实际上`HTTP2.0`并没有改变`HTTP1.x`的语义。
@@ -76,7 +76,7 @@ HTTP2.0 通过在应用层和传输层之间增加一个二进制分帧层，突
 - 帧（`frame`）：`HTTP2.0`通信的最小单位，每个帧包含帧头部，至少也会标识出当前帧所属的流（`stream id`）
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/http_04.jpeg" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/http_04.jpeg" />
 </div>
 
 从图中可见，所有的`HTTP2.0`通信都在一个`TCP`连接上完成，这个连接可以承载任意数量的双向数据流。

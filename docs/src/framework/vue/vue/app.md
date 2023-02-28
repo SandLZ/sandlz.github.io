@@ -91,5 +91,5 @@ Vue.createApp({
 :::
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/lifecycle.svg" style="width=80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/lifecycle.svg" style="width=80%">
 </div>

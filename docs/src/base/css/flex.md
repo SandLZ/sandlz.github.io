@@ -5,7 +5,7 @@
 ## 概念
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/flex_container.png" width="80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/flex_container.png" width="80%" />
 </div>
 
 容器默认存在两根轴：水平的主轴（`main axis`）和垂直的交叉轴（`cross axis`）。主轴的开始位置（与边框的交叉点）叫做`main start`，结束位置叫做`main end`；交叉轴的开始位置叫做`cross start`，结束位置叫做`cross end`。

@@ -114,7 +114,7 @@ JS 的单线程，与它的用途有关。作为浏览器脚本语言，JavaScri
 ## 堆(`Head`)、栈(`Stack`)、队列(`Queue`)
 
 <div>
-	<img src="https://gitee.com/sandlz/images/raw/master/uPic/event_loop_01.png">  
+	<img src="https://github.com/sandlz/images/raw/master/uPic/event_loop_01.png">  
 </div>
 
 
@@ -212,7 +212,7 @@ MutationObserver
 ### 执行顺序
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/Event Loop.drawio.png">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/Event Loop.drawio.png">
 </div>
 
 执行栈在执行完同步任务后，查看执行栈是否为空，如果执行栈为空，就会去检查微任务(microTask)队列是否为空，如果为空的话，就执行 Task（宏任务），否则就一次性执行完所有微任务。
@@ -392,7 +392,7 @@ console.log(3)
 其中 `libuv` 引擎中的事件循环分为 6 个阶段，它们会按照顺序反复运行。每当进入某一个阶段的时候，都会从对应的回调队列中取出函数去执行。当队列为空或者执行的回调函数数量到达系统设定的阈值，就会进入下一阶段
 
 <div>
-	<img src="https://gitee.com/sandlz/images/raw/master/uPic/t7DpWc.png">  
+	<img src="https://github.com/sandlz/images/raw/master/uPic/t7DpWc.png">  
 </div>
 
 node 中的事件循环的顺序：

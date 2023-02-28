@@ -213,7 +213,7 @@ console.log(moduleA);
 `require` 命令用于加载模块文件。require 命令的基本功能是，读入并执行一个 `JavaScript` 文件，然后返回该模块的 `exports` 对象。如果没有发现指定模块，会报错
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/aBALD3.png" style="width=80%" />
+  <img src="https://github.com/sandlz/images/raw/master/uPic/aBALD3.png" style="width=80%" />
 </div>
 
 #### （4）模块的加载机制

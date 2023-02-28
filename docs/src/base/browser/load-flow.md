@@ -23,7 +23,7 @@
 
 #### 三次握手
 
-![](https://gitee.com/sandlz/images/raw/master/uPic/16cff8d390722b79.jpg)
+![](https://github.com/sandlz/images/raw/master/uPic/16cff8d390722b79.jpg)
 
 第一次：客户端向服务器发出连接请求报文，这时报文首部中的同部位 SYN=1，同时随机生成初始序列号 seq=x，此时，TCP 客户端进程进入了 SYN-SENT（同步已发送状态）状态。TCP 规定，SYN 报文段（SYN=1 的报文段）不能携带数据，但需要消耗掉一个序号。这个三次握手中的开始。表示客户端想要和服务端建立连接。
 第二次：TCP 服务器收到请求报文后，如果同意连接，则发出确认报文。确认报文中应该 ACK=1，SYN=1，确认号是 ack=x+1，同时也要为自己随机初始化一个序列号 seq=y，此时，TCP 服务器进程进入了 SYN-RCVD（同步收到）状态。这个报文也不能携带数据，但是同样要消耗一个序号。这个报文带有 SYN(建立连接)和 ACK(确认)标志，询问客户端是否准备好。
@@ -166,7 +166,7 @@ defer 是在 JS 加载完成后，整个文档解析完成后，触发 `DOMConte
 字节 → 字符 → 令牌 → 节点 → 对象模型(DOM)
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/wX8pgK.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/wX8pgK.png" />
 </div>
 
 ### 构建 CSSOM
@@ -180,7 +180,7 @@ defer 是在 JS 加载完成后，整个文档解析完成后，触发 `DOMConte
 计算规则：继承和层叠
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/1eEWa6.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/1eEWa6.png" />
 </div>
 
 ### Layout Tree 布局树（之前叫渲染树）
@@ -189,7 +189,7 @@ defer 是在 JS 加载完成后，整个文档解析完成后，触发 `DOMConte
 - 对于不可见的节点，`head`, `meta` 标签等都会被忽略。对于`body.p.span` 这个元素，它的属性包含`display:none`,所以这个元素没有被包含进布局树。
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/NViXll2.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/NViXll2.png" />
 </div>
 
 ### 布局计算
@@ -214,7 +214,7 @@ defer 是在 JS 加载完成后，整个文档解析完成后，触发 `DOMConte
 图层与布局树之间关系：
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/HxqAB3.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/HxqAB3.png" />
 </div>
 
 ### 合成和显示
@@ -234,7 +234,7 @@ defer 是在 JS 加载完成后，整个文档解析完成后，触发 `DOMConte
 ### 总结
 
 <div>
-    <img src="https://gitee.com/sandlz/images/raw/master/uPic/iShot2021-11-21 11.10.48.png" />
+    <img src="https://github.com/sandlz/images/raw/master/uPic/iShot2021-11-21 11.10.48.png" />
 </div>
 
 

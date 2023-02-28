@@ -11,7 +11,7 @@
 我们使用以下正则表达式来验证一个用户名:
 
 <p align="center">
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/akFD8Q.jpg" alt="Regular expression">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/akFD8Q.jpg" alt="Regular expression">
 </p>
 
 以上的正则表达式可以接受 `john_doe`, `jo-hn_doe`, `john12_as`.
@@ -398,4 +398,4 @@
 * *日期 (YYYY/MM/DD)*: `^(19|20)?[0-9]{2}[- /.](0?[1-9]|1[012])[- /.](0?[1-9]|[12][0-9]|3[01])$`
 * *MasterCard 信用卡号*: `^(5[1-5][0-9]{14})*$`
 
-转载自[正则表达式学习手册中文版](https://gitee.com/thinkyoung/learn_regex/edit/master/README.md)
+转载自[正则表达式学习手册中文版](https://github.com/thinkyoung/learn_regex/edit/master/README.md)

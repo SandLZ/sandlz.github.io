@@ -58,7 +58,7 @@ Behavior Driven Development 行为驱动开发
 
 ## 金字塔
 
-![](https://gitee.com/zliu/images/raw/master/uPic/55113335-24fcff00-50df-11e9-87e8-cdd5e0e6ad3f.png)
+![](https://github.com/zliu/images/raw/master/uPic/55113335-24fcff00-50df-11e9-87e8-cdd5e0e6ad3f.png)
 
 ## 测试框架
 
@@ -71,7 +71,7 @@ Behavior Driven Development 行为驱动开发
 | [Puppeteer](https://pptr.dev/)                               | 提供Chrome测试环境                               |                                                              | E2E  | 68.1K |
 | [Jasmine](https://jasmine.github.io)                         | 断言<br/>报告                                    | No DOM<br>No Deps                                            | Unit | 15K   |
 
-![stateofjs 2020](https://gitee.com/zliu/images/raw/master/uPic/Ic8Kq9.png)
+![stateofjs 2020](https://github.com/zliu/images/raw/master/uPic/Ic8Kq9.png)
 
 ## 三大框架
 
@@ -100,7 +100,7 @@ Jest or Test Library for react
 
 ## Karma
 
-![](https://gitee.com/zliu/images/raw/master/uPic/E4wM1G.png)
+![](https://github.com/zliu/images/raw/master/uPic/E4wM1G.png)
 
 
 
@@ -211,8 +211,8 @@ describe("This is an exmaple suite", function() {
 在编写测试时，通常需要检查值是否满足某些条件。expect允许您访问许多“匹配器”，这些匹配器允许您验证不同的东西。
 
 <div>
-  <img src="https://gitee.com/zliu/images/raw/master/uPic/yApj82.png" style="zoom:30%;float:left" />
-   <img src="https://gitee.com/zliu/images/raw/master/uPic/3Uy7LG.png" style="zoom:30%;float:right"/>
+  <img src="https://github.com/zliu/images/raw/master/uPic/yApj82.png" style="zoom:30%;float:left" />
+   <img src="https://github.com/zliu/images/raw/master/uPic/3Uy7LG.png" style="zoom:30%;float:right"/>
 </div>
 
 

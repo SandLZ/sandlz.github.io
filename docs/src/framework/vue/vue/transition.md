@@ -153,7 +153,7 @@ Vue.createApp(Demo).mount("#demo");
 6. `v-leave-to`：离开过渡的结束状态。在离开过渡被触发之后下一帧生效 (与此同时 v-leave-from 被删除)，在过渡/动画完成之后移除。
 
 <div>
-  <img src="https://gitee.com/sandlz/images/raw/master/uPic/transitions.svg" style="width: 80%">
+  <img src="https://github.com/sandlz/images/raw/master/uPic/transitions.svg" style="width: 80%">
 </div>
 
 对于这些在过渡中切换的类名来说，如果你使用一个没有名字的 `<transition>`，则 v- 是这些 class 名的默认前缀。如果你使用了 `<transition name="my-transition">`，那么 `v-enter-from`会替换为 `my-transition-enter-from`。

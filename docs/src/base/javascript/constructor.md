@@ -100,7 +100,7 @@ myNew(Person, 'ZhangSan')
 测试结果，与`new`操作符一致
 
 <div>
-<img src="https://gitee.com/sandlz/images/raw/master/uPic/kqHxFU.png" style="width: 50%">
+<img src="https://github.com/sandlz/images/raw/master/uPic/kqHxFU.png" style="width: 50%">
 </div>
 
 ## `new` 和 `Object.create()`区别
