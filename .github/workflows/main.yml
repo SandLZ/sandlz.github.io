@@ -19,18 +19,15 @@ jobs:
         with:
           node-version: 14
           cache: 'npm'
-        run: |
-          cd docs  
       - name: Install and Build 
         run: |
           node -v
           npm -v
           npm i
           npm run build
-          cd ..
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: docs/src/.vuepress/dist
+          FOLDER: src/.vuepress/dist
