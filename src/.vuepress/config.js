@@ -170,6 +170,17 @@ module.exports = {
         ],
       },
       {
+        text: "工具",
+        ariaLabel: "工具",
+        items: [
+          {
+            text: "SEO",
+            link: "/tool/seo/",
+            items: [{ text: "GTM", link: "/tool/seo/gtm" }],
+          },
+        ],
+      },
+      {
         text: "前端发展",
         ariaLabel: "前端发展",
         items: [
