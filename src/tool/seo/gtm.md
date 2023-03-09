@@ -124,19 +124,110 @@
 
 1. 新建触发器: 选择点击所有元素，触发条件如使用`ID`条件；
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_9uQpqj.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_lxT8lK.png">  
 </div>
 
 2. 新建代码：用于将事件发送给`GA4`
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_uerqvE.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_1EP0Lw.png">  
 </div>
 
-3. 发布
+3. 触发器中选择代码
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_Q6W7tc.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_lxT8lK.png">  
 </div>
+
+## 变量
+GTM内置大量变量，如下图所示：
+<div style="display: flex;">
+    <img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_d7hVt9.png">
+    <img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_cM4DnJ.png">
+    <img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_gejqCl.png">
+</div>
+
+常用变量：
+1. Click ID ：点击元素的ID
+2. Click Classes: 点击元素的Class列表
+
+### 自定义变量
+自定义变量可满足用户多场景的需求，如下图所示：
+<div style="display: flex;">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_btwtc6.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_fdxOqW.png">
+</div>
+
+常用自定义变量类型：
+#### 自定义JavaScript
+
+提供函数，当使用到此变量时，会调用此函数。
+
+注：此字段应当是使用`return`语句返回值的 JavaScript 函数。如果该函数未明确返回值，则会返回未定义状态，此时您的容器将无法正常运行。
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_HEARNt.png">
+</div>
+
+### JavaScript 变量
+提供全局变量
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_gYkujP.png">
+</div>
+
+## 版本管理
+
+### 发布新版本
+
+1. 当工作区有变更时，可在顶部看到更改的数量，下方也有具体的修改内容列表。
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_wpamW0.png">
+</div>
+
+2. 点击预览，进入调试模式，确认改动有效
+
+    当触发相应条件时，`Tags Not Fired`中对应的Item应移动至`Tags Fired`,此时表明配置生效。
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_pm7gEX.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_xI1hBX.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_YybwDX.png">
+</div>
+
+3. 确认发布
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_dyKvBL.png">
+</div> 
+
+### 版本回退
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_bqBVdX.png">
+</div> 
+
+### 何时生效
+`gtm.js`文件请求如下：
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_AJ88au.png">
+</div>
+
+强缓存：
+```
+Expires: 过期时间(HTTP 1.0)
+Cache-Control : 缓存控制(HTTP 1.1)
+优先级：Cache-Control > Expires（不支持HTTP 1.1时使用Expires）
+```    
+
+协商缓存：
+当强缓存失效后，通过协商缓存查看资源是否过期。
+```
+Last-Modified: 资源在服务器上的最后修改时间
+```
+
+综上：
+
+若浏览器支持HTTP1.1，则缓存时间为900秒，即15分钟；超过15分钟再次访问资源时，走协商缓存。
+若浏览器不支持HTTP1.1，则强缓存默认失效（资源请求时间）；再次访问资源时，走协商缓存。
+
 
 ## 参考
 
+[GTM Support](https://support.google.com/tagmanager/answer/7182738?hl=zh-Hans&ref_topic=7182737)
 [GTM & GA4](https://zhuanlan.zhihu.com/p/544446340)
