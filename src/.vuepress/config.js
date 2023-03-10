@@ -474,6 +474,13 @@ module.exports = {
           children: ["", "onion-model"],
         },
       ],
+      "/tool/seo/": [
+        {
+          title: "SEO",
+          collapsable: true,
+          children: ["gtm"],
+        }
+      ],
       "/other/team/": [
         {
           title: "团队协作",
