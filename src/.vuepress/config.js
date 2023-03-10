@@ -175,7 +175,6 @@ module.exports = {
         items: [
           {
             text: "SEO",
-            link: "/tool/seo/",
             items: [{ text: "GTM", link: "/tool/seo/gtm" }],
           },
         ],
