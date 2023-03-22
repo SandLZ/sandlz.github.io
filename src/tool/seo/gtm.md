@@ -49,33 +49,33 @@
 1. 新建账号
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_O2Ggy2.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_Cl4TOm.png">  
 </div>
 
 2. 同意协议
 3. 安装代码至目标网站
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_eHf1W9.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_IM1v8K.png">  
 </div>
 
 ### GA4
 
 1. 新建媒体资源
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_SlPAia.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_zcffwQ.png">  
 </div>
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_UsbaBB.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_7w6Iuq.png">  
 </div>
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_9BXwRI.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_dHJuEL.png">  
 </div>
 
 2. 记录衡量值（后面结合 GTM 时用到）
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_fUIH3h.png" alt="xxxxx">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_HErHGZ.png" alt="xxxxx">  
 </div>
 
 ## GTM 结合 GA4
@@ -83,7 +83,7 @@
 结合 GA4 之前先了解下 GTM 中的几个概念：代码、触发器、变量
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_JgC81T.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_YuqQwf.png">  
 </div>
 
 ### 代码、触发器、变量
@@ -98,21 +98,21 @@
 
 1. **创建代码**
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_EIMl8W.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_d7qlct.png">  
 </div>
 2. **配置代码类型及触发条件**
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_AxUts9.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_id54PK.png">  
 </div>
 
 注：衡量 ID 位于 GA4 -> 媒体资源 -> 数据流 -> 网站数据流详情
 
 3. **发布**
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_s95hST.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_uva99D.png">  
 </div>
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_01_nTWkOF.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_ycLwDy.png">  
 </div>
 
 ## Click 事件
@@ -121,17 +121,17 @@
 
 1. 新建触发器: 选择点击所有元素，触发条件如使用`ID`条件；
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_lxT8lK.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_8LkaVz.png">  
 </div>
 
 2. 新建代码：用于将事件发送给`GA4`
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_1EP0Lw.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_9NhnYt.png">  
 </div>
 
 3. 触发器中选择代码
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_lxT8lK.png">  
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_ExH0pr.png">  
 </div>
 
 ## 变量
@@ -184,7 +184,7 @@ GTM 内置大量变量，如下图所示：
 
 1. 当工作区有变更时，可在顶部看到更改的数量，下方也有具体的修改内容列表。
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_wpamW0.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_K2Mb76.png">
 </div>
 
 2. 点击预览，进入调试模式，确认改动有效
@@ -192,21 +192,21 @@ GTM 内置大量变量，如下图所示：
    当触发相应条件时，`Tags Not Fired`中对应的 Item 应移动至`Tags Fired`,此时表明配置生效。
 
 <div>
-	<img  src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_pm7gEX.png">
-	<img  src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_xI1hBX.png">
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_YybwDX.png">
+	<img  src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_oTzR8K.png">
+	<img  src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_qiWWP7.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_3KBCWd.png">
 </div>
 
 3. 确认发布
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_dyKvBL.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_32UCGJ.png">
 </div>
 
 ### 版本回退
 
 <div>
-	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_09_bqBVdX.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_22_4XTGId.png">
 </div>
 
 ### 何时生效
@@ -236,6 +236,72 @@ Last-Modified: 资源在服务器上的最后修改时间
 
 若浏览器支持 HTTP1.1，则缓存时间为 900 秒，即 15 分钟；超过 15 分钟再次访问资源时，走协商缓存。
 若浏览器不支持 HTTP1.1，则强缓存默认失效（资源请求时间）；再次访问资源时，走协商缓存。
+
+## 分析报告
+
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_xy9VjK.png">
+</div>
+
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_00WJBE.png">
+</div>
+
+
+
+常规的统计可在概况、实时、事件等页面查看相关数据；那么如何分析事件中的自定义参数呢？这就需要用到自定义维度功能。
+
+### 自定义维度
+
+自定义维度和自定义指标类似于您 Google Analytics（分析）帐号中的默认维度和指标，唯一的区别在于前者由您自己创建。
+您可以使用它们来收集和分析 Google Analytics（分析）不会自动跟踪的数据。
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_NBRrYF.png">
+</div>
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_FomExj.png">
+</div>
+
+### 自定义分析报告
+
+自定义分析报告可根据你的需求自定义分析维度及过滤条件，快速的访问报告。
+
+1. 点击自定义报告按钮；
+2. 选择尺寸 -> 选择自定义参数；
+3. 根据需求添加过滤条件；
+4. 根据需求选择图表；
+5. 根据需求添加新的摘要卡。
+
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_GDlKT3.png">
+</div>
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_yYb8tF.png">
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_9ofUHa.png">
+</div>
+
+备注：
+1. 自定义报告保存在 **《库》**中；
+2. 管理员可通过编辑 **《集合》** 将报告挪至侧边栏中供更快的访问。
+
+### 事件按自定义维度查询
+
+筛选自定义维度中的参数 -> 过滤后的事件
+
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_YaE3Zn.png">
+</div>
+
+查看更多的事件参数
+<div>
+	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_aX9ydS.png">
+</div>
 
 ## 参考
 
