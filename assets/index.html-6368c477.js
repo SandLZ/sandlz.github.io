@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-200c192c","path":"/base/browser/","title":"浏览器","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679975305000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"base/browser/README.md"}');export{e as data};
