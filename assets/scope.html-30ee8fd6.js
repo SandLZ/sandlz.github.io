@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-13393de2","path":"/base/javascript/scope.html","title":"作用域","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679975969000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"base/javascript/scope.md"}');export{e as data};
