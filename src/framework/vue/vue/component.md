@@ -398,7 +398,7 @@ app.component("custom-input", {
 
 ### Attribute 继承
 
-当组件返回单个根节点时，非 prop attribute 将自动添加到根节点的 attribute 中。例如，在 <date-picker> 组件的实例中：
+当组件返回单个根节点时，非 prop attribute 将自动添加到根节点的 attribute 中。例如，在 `<date-picker>` 组件的实例中：
 
 ```html
 app.component('date-picker', { template: `
@@ -605,7 +605,7 @@ Vue 实现了一套内容分发的 API，这套 API 的设计灵感源自 Web Co
 </todo-button>
 ```
 
-然后在 <todo-button> 的模板中，你可能有：
+然后在 `<todo-button>` 的模板中，你可能有：
 
 ```html
 <!-- todo-button 组件模板 -->
@@ -676,7 +676,7 @@ Vue 实现了一套内容分发的 API，这套 API 的设计灵感源自 Web Co
   <img src="https://github.com/sandlz/images/raw/master/uPic/slot.png" style="width=80%">
 </div>
 
-插槽不能访问 <todo-button> 的作用域。例如，尝试访问 action 将不起作用：
+插槽不能访问 `<todo-button>` 的作用域。例如，尝试访问 action 将不起作用：
 
 ```html
 <todo-button action="delete">
@@ -707,7 +707,7 @@ Vue 实现了一套内容分发的 API，这套 API 的设计灵感源自 Web Co
 </button>
 ```
 
-现在当我们在一个父级组件中使用 <submit-button> 并且不提供任何插槽内容时：
+现在当我们在一个父级组件中使用 `<submit-button>` 并且不提供任何插槽内容时：
 
 ```html
 <submit-button></submit-button>
@@ -792,7 +792,7 @@ Vue 实现了一套内容分发的 API，这套 API 的设计灵感源自 Web Co
 </base-layout>
 ```
 
-现在 <template> 元素中的所有内容都将会被传入相应的插槽。
+现在 `<template>` 元素中的所有内容都将会被传入相应的插槽。
 
 渲染的 HTML 将会是：
 
@@ -1205,7 +1205,7 @@ createApp({
 
 ### 与 Suspense 一起使用
 
-异步组件在默认情况下是可挂起的。这意味着如果它在父链中有一个 <Suspense>，它将被视为该 <Suspense> 的异步依赖。在这种情况下，加载状态将由 <Suspense> 控制，组件自身的加载、错误、延迟和超时选项都将被忽略。
+异步组件在默认情况下是可挂起的。这意味着如果它在父链中有一个 `<Suspense>`，它将被视为该 `<Suspense>` 的异步依赖。在这种情况下，加载状态将由 `<Suspense>` 控制，组件自身的加载、错误、延迟和超时选项都将被忽略。
 
 异步组件可以选择退出 Suspense 控制，并可以在其选项中指定 suspensible:false，让组件始终控制自己的加载状态。
 

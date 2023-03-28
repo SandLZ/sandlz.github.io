@@ -523,7 +523,7 @@ class Demo1 extends Component {
 
 ## 非受控组件
 
-在HTML当中，像<input>,<textarea>, 和 <select>这类表单元素会维持自身状态，并根据用户输入进行更新。
+在HTML当中，像`<input>`,`<textarea>`, 和 `<select>`这类表单元素会维持自身状态，并根据用户输入进行更新。
 
 表单数据由DOM本身处理。即不受 `setState()` 的控制，与传统的HTML表单输入相似，input输入值即显示最新值（使用 `ref` 从DOM获取表单值）
 

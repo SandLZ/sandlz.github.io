@@ -24,7 +24,7 @@ export default {
     editLinks: false,
     docsDir: "",
     editLinkText: "",
-    contributorsText: "sandlz",
+    contributorsText: "贡献者",
     lastUpdatedText: "上次更新",
     navbar: navbar,
     sidebar: sideBar,
