@@ -239,17 +239,13 @@ Last-Modified: 资源在服务器上的最后修改时间
 
 ## 分析报告
 
-
 <div>
 	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_xy9VjK.png">
 </div>
 
-
 <div>
 	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_00WJBE.png">
 </div>
-
-
 
 常规的统计可在概况、实时、事件等页面查看相关数据；那么如何分析事件中的自定义参数呢？这就需要用到自定义维度功能。
 
@@ -276,7 +272,6 @@ Last-Modified: 资源在服务器上的最后修改时间
 4. 根据需求选择图表；
 5. 根据需求添加新的摘要卡。
 
-
 <div>
 	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_GDlKT3.png">
 </div>
@@ -287,6 +282,7 @@ Last-Modified: 资源在服务器上的最后修改时间
 </div>
 
 备注：
+
 1. 自定义报告保存在 **《库》**中；
 2. 管理员可通过编辑 **《集合》** 将报告挪至侧边栏中供更快的访问。
 
@@ -299,6 +295,7 @@ Last-Modified: 资源在服务器上的最后修改时间
 </div>
 
 查看更多的事件参数
+
 <div>
 	<img src="https://raw.githubusercontent.com/sandlz/images/master/uPic/2023_03_20_aX9ydS.png">
 </div>
