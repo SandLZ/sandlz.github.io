@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-14b33aa5","path":"/base/javascript/map-set.html","title":"Map & Set","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679986642000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"base/javascript/map-set.md"}');export{a as data};
