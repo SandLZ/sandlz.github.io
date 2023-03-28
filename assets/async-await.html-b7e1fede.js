@@ -1,0 +1,1 @@
+import{_ as e,p as t,q as c,R as a,t as s}from"./framework-201fec1f.js";const n={},r=a("h1",{id:"async-await",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#async-await","aria-hidden":"true"},"#"),s(" async/await")],-1),o=[r];function i(_,d){return t(),c("div",null,o)}const l=e(n,[["render",i],["__file","async-await.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+import{_ as o,p as t,q as c,R as e,t as a}from"./framework-201fec1f.js";const n={},r=e("h1",{id:"通信协议",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#通信协议","aria-hidden":"true"},"#"),a(" 通信协议")],-1),s=[r];function _(i,d){return t(),c("div",null,s)}const h=o(n,[["render",_],["__file","communication-protocol.html.vue"]]);export{h as default};

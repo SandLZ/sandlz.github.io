@@ -1,0 +1,1 @@
+import{_ as t,p as c,q as n,R as e,t as r}from"./framework-201fec1f.js";const a={},o=e("h1",{id:"electron",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#electron","aria-hidden":"true"},"#"),r(" Electron")],-1),s=[o];function _(d,i){return c(),n("div",null,s)}const h=t(a,[["render",_],["__file","index.html.vue"]]);export{h as default};

@@ -1,0 +1,1 @@
+import{_ as t,p as o,q as a,R as e,t as s}from"./framework-201fec1f.js";const c={},n=e("h1",{id:"可复用-组合",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#可复用-组合","aria-hidden":"true"},"#"),s(" 可复用 & 组合")],-1),r=[n];function i(_,l){return o(),a("div",null,r)}const h=t(c,[["render",i],["__file","multiplex-composition.html.vue"]]);export{h as default};

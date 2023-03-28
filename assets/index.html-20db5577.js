@@ -1,0 +1,1 @@
+import{_ as a,p as o,q as t,R as e,t as r}from"./framework-201fec1f.js";const c={},d=e("h1",{id:"cordova",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#cordova","aria-hidden":"true"},"#"),r(" Cordova")],-1),n=[d];function s(_,i){return o(),t("div",null,n)}const l=a(c,[["render",s],["__file","index.html.vue"]]);export{l as default};

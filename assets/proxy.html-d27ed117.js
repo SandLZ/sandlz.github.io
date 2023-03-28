@@ -1,0 +1,1 @@
+import{_ as r,p as t,q as o,R as e,t as a}from"./framework-201fec1f.js";const c={},s=e("h1",{id:"proxy",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#proxy","aria-hidden":"true"},"#"),a(" Proxy")],-1),n=[s];function _(d,i){return t(),o("div",null,n)}const l=r(c,[["render",_],["__file","proxy.html.vue"]]);export{l as default};

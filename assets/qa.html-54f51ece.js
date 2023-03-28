@@ -1,0 +1,1 @@
+import{_ as a,p as t,q as c,R as e,t as r}from"./framework-201fec1f.js";const s={},o=e("h1",{id:"qa",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#qa","aria-hidden":"true"},"#"),r(" QA")],-1),n=[o];function _(d,i){return t(),c("div",null,n)}const l=a(s,[["render",_],["__file","qa.html.vue"]]);export{l as default};

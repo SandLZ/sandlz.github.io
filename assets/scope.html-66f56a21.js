@@ -1,0 +1,1 @@
+import{_ as t,p as a,q as c,R as e,t as s}from"./framework-201fec1f.js";const o={},r=e("h1",{id:"作用域",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#作用域","aria-hidden":"true"},"#"),s(" 作用域")],-1),n=[r];function _(d,i){return a(),c("div",null,n)}const l=t(o,[["render",_],["__file","scope.html.vue"]]);export{l as default};
