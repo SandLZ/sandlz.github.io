@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-033f6d0c","path":"/engineering/trans-tool/babel.html","title":"Babel","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679975969000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"engineering/trans-tool/babel.md"}');export{e as data};
