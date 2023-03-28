@@ -10,3 +10,5 @@ run
 config.local.js
 basement_dist
 src/.vuepress/dist/**
+.temp
+.cache
