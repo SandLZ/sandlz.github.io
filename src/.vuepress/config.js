@@ -1,6 +1,7 @@
 import { defaultTheme } from "vuepress";
 import { backToTopPlugin } from "@vuepress/plugin-back-to-top";
 import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import navbar from "./navbar";
 import sideBar from "./sidebar";
 const { description } = require("../../package");
@@ -36,6 +37,9 @@ export default {
       options: {
         margin: 16,
       },
+    }),
+    googleAnalyticsPlugin({
+      id: "G-HPPKCGZCZ5",
     }),
   ],
 };
