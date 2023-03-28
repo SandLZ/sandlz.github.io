@@ -104,7 +104,7 @@ const navbar = [
         text: "FE",
         children: [
           { text: "Vue", link: "/framework/vue/" },
-          { text: "React", link: "/framework/react/" },
+          { text: "React", link: "/framework/react/react/base" },
           { text: "Angular", link: "/framework/angular/" },
         ],
       },

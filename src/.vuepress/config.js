@@ -2,6 +2,7 @@ import { defaultTheme } from "vuepress";
 import { backToTopPlugin } from "@vuepress/plugin-back-to-top";
 import { mediumZoomPlugin } from "@vuepress/plugin-medium-zoom";
 import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
+import { searchPlugin } from '@vuepress/plugin-search'
 import navbar from "./navbar";
 import sideBar from "./sidebar";
 const { description } = require("../../package");
@@ -40,6 +41,9 @@ export default {
     }),
     googleAnalyticsPlugin({
       id: "G-HPPKCGZCZ5",
+    }),
+    searchPlugin({
+      // 配置项
     }),
   ],
 };
