@@ -3,7 +3,11 @@ const sideBar = {
     {
       title: "Linux",
       collapsable: true,
-      children: ["/computer/os/linux/file", "/computer/os/linux/script"],
+      children: [
+        "/computer/os/linux/system",
+        "/computer/os/linux/permission",
+        "/computer/os/linux/script",
+      ],
     },
   ],
   "/computer/algorithm/": [
@@ -170,7 +174,10 @@ const sideBar = {
     {
       title: "Webpack",
       collapsable: true,
-      children: ["/engineering/build-tool/webpack/base", "/engineering/build-tool/webpack/advance"],
+      children: [
+        "/engineering/build-tool/webpack/base",
+        "/engineering/build-tool/webpack/advance",
+      ],
     },
     {
       title: "Rollup",
@@ -196,7 +203,10 @@ const sideBar = {
     {
       title: "代码质量",
       collapsable: true,
-      children: ["/engineering/code-quality/unit-test", "/engineering/code-quality/e2e"],
+      children: [
+        "/engineering/code-quality/unit-test",
+        "/engineering/code-quality/e2e",
+      ],
     },
   ],
   "/engineering/ci-cd/": [
@@ -231,7 +241,11 @@ const sideBar = {
     {
       title: "Vue Router",
       collapsable: true,
-      children: ["/framework/vue/router/", "/framework/vue/router/base", "/framework/vue/router/advance"],
+      children: [
+        "/framework/vue/router/",
+        "/framework/vue/router/base",
+        "/framework/vue/router/advance",
+      ],
     },
     {
       title: "QA",
@@ -243,12 +257,21 @@ const sideBar = {
     {
       title: "React",
       collapsable: true,
-      children: ["/framework/react/base", "/framework/react/life-cycle", "/framework/react/hook"],
+      children: [
+        "/framework/react/base",
+        "/framework/react/life-cycle",
+        "/framework/react/hook",
+      ],
     },
     {
       title: "Redux",
       collapsable: true,
-      children: ["/framework/react/redux", "/framework/react/redux-thunk", "/framework/react/redux-persist", "/framework/react/redux-logger"],
+      children: [
+        "/framework/react/redux",
+        "/framework/react/redux-thunk",
+        "/framework/react/redux-persist",
+        "/framework/react/redux-logger",
+      ],
     },
     {
       title: "React Router",
