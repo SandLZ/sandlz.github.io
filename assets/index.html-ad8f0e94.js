@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-f295eb44","path":"/client/cordova/","title":"Cordova","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679986642000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"client/cordova/README.md"}');export{e as data};

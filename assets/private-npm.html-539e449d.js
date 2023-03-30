@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-646c86f2","path":"/other/team/private-npm.html","title":"Private npm registry","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680139853000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"other/team/private-npm.md"}');export{t as data};
