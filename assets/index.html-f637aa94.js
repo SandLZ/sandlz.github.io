@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-25a7e93e","path":"/client/flutter/","title":"Flutter","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681375145000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"client/flutter/README.md"}');export{t as data};

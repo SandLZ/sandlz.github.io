@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-805509a0","path":"/framework/vue/vue/multiplex-composition.html","title":"可复用 & 组合","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374941000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"framework/vue/vue/multiplex-composition.md"}');export{e as data};

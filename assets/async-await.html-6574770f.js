@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-00de7e51","path":"/base/javascript/async-await.html","title":"async/await","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681375145000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"base/javascript/async-await.md"}');export{a as data};

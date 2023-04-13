@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f295eb44","path":"/client/cordova/","title":"Cordova","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681375145000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"client/cordova/README.md"}');export{e as data};
