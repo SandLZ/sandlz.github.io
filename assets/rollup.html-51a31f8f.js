@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-70365a84","path":"/engineering/build-tool/rollup.html","title":"Rollup","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374941000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"engineering/build-tool/rollup.md"}');export{e as data};

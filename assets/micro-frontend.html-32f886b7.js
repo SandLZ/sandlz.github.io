@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-69690a28","path":"/frontend-development/micro-frontend.html","title":"微前端","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374941000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"frontend-development/micro-frontend.md"}');export{e as data};
