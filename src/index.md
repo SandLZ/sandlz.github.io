@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://github.com/sandlz/images/raw/master/uPic/sand.jpeg
+heroImage: https://picsum.photos/1000/560
 heroHeight: 540
 tagline:
 actionText: Quick Start →
