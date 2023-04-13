@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-68ced258","path":"/advance/architecture-mode/","title":"架构模式","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374616000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"advance/architecture-mode/README.md"}');export{e as data};

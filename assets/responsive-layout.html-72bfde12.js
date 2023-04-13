@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-07157272","path":"/base/css/responsive-layout.html","title":"响应式布局","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374616000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"base/css/responsive-layout.md"}');export{e as data};

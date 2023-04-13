@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6dc4d1f6","path":"/base/typescript/","title":"TypeScript","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681374616000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"base/typescript/README.md"}');export{t as data};

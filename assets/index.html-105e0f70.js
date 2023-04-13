@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-cd76faa6","path":"/advance/programe-paradigms/","title":"编程范型","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680139853000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"advance/programe-paradigms/README.md"}');export{a as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-1455d425","path":"/base/","title":"介绍","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"xxx","slug":"xxx","link":"#xxx","children":[]}],"git":{"updatedTime":1680139853000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"base/README.md"}');export{e as data};
