@@ -258,19 +258,19 @@ const sideBar = {
       title: "React",
       collapsable: true,
       children: [
-        "/framework/react/base",
-        "/framework/react/life-cycle",
-        "/framework/react/hook",
+        "/framework/react/react/base",
+        "/framework/react/react/life-cycle",
+        "/framework/react/react/hook",
       ],
     },
     {
       title: "Redux",
       collapsable: true,
       children: [
-        "/framework/react/redux",
-        "/framework/react/redux-thunk",
-        "/framework/react/redux-persist",
-        "/framework/react/redux-logger",
+        "/framework/react/redux/redux",
+        "/framework/react/redux/redux-thunk",
+        "/framework/react/redux/redux-persist",
+        "/framework/react/redux/redux-logger",
       ],
     },
     {
