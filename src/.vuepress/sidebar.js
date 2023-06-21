@@ -166,6 +166,7 @@ const sideBar = {
       collapsable: true,
       children: [
         "/engineering/code-standard/code-format",
+        "/engineering/code-standard/code-format-custom",
         "/engineering/code-standard/code-js",
       ],
     },
