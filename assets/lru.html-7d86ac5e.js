@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-433b7a6d","path":"/computer/algorithm/base/lru.html","title":"LRU","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1687336696000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"computer/algorithm/base/lru.md"}');export{t as data};

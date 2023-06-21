@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-45dd010f","path":"/computer/communication-protocol.html","title":"通信协议","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1687336626000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"computer/communication-protocol.md"}');export{t as data};
