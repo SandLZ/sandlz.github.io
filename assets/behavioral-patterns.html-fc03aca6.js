@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5d2b0549","path":"/advance/design-patterns/behavioral-patterns.html","title":"行为模式","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1687326688000,"contributors":[{"name":"liuzhu","email":"liuzhu@menusifu.cn","commits":1}]},"filePathRelative":"advance/design-patterns/behavioral-patterns.md"}');export{e as data};

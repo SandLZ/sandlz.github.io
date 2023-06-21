@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-535c818c","path":"/computer/algorithm/math/","title":"数学","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681375145000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"computer/algorithm/math/README.md"}');export{t as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-8cc2d070","path":"/advance/design-patterns/uml.html","title":"UML","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1681375145000,"contributors":[{"name":"sandlz","email":"978949438@qq.com","commits":1}]},"filePathRelative":"advance/design-patterns/uml.md"}');export{e as data};
