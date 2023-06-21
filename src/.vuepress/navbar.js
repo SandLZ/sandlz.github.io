@@ -127,10 +127,7 @@ const navbar = [
   {
     text: "工具",
     children: [
-      {
-        text: "SEO",
-        children: [{ text: "GTM", link: "/tool/seo/gtm" }],
-      },
+      { text: "RxJS", link: "/tool/rxjs" },
     ],
   },
   {
@@ -146,6 +143,7 @@ const navbar = [
       { text: "团队协作", link: "/other/team/private-npm" },
       { text: "项目管理", link: "/other/project-manage/" },
       { text: "架构设计", link: "/other/design/" },
+      { text: "SEO", children: [{ text: "GTM", link: "/tool/seo/gtm" }] },
     ],
   },
   {
